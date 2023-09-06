@@ -29,7 +29,7 @@ session.headers.update({'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 url_links = []
 property_metadata = defaultdict(dict)
 
-'''
+
 # Accessing all the Victorian Postcodes
 post_codes_file_path = "data/landing/sa2/CG_POSTCODE_2021_SA2_2021.xlsx"
 df = pd.read_excel(post_codes_file_path)
@@ -87,9 +87,14 @@ with open('data/landing/property_urls.csv', mode='w', newline='') as csv_file:
     for item in url_links:
         csv_writer.writerow([item])
 
+# if you have run the above code and saved all the urls of the individual properties
+# uncomment the code below and comment out the code above then run the script
+# it will start going through the individual properties to start with rather then 
+# finding all the properties again
 '''
 df = pd.read_csv('data/landing/property_urls.csv')
 url_links = [url[0] for url in df.values]
+'''
 
 # for each url, scrape some metadata
 for up_to, property_url in enumerate(url_links[1:], start=1):

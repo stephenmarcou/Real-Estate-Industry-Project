@@ -1,0 +1,59 @@
+import pandas as pd
+import numpy as np
+
+# Accessing all the Victorian Postcodes
+post_codes_file_path = "data/landing/sa2/CG_POSTCODE_2021_SA2_2021.xlsx"
+df = pd.read_excel(post_codes_file_path)
+
+vic_df = df.loc[df["POSTCODE"].isin(range(3000,4000))]
+
+# drop the null rows and get all of the SA2 codes
+vic_df = vic_df.dropna(subset=["SA2_CODE_2021"])
+
+# sa2_codes = list((vic_df["SA2_CODE_2021"]))
+# sa2_codes = list(dict.fromkeys(sa2_codes))
+sa2_codes = vic_df['SA2_CODE_2021'].values
+
+sa2_codes = [str(int(x)) for x in sa2_codes if str(x).startswith('2')]
+sa2_codes = list(dict.fromkeys(sa2_codes))
+
+cols = ["Estimated resident population (no.)", 
+        'Median equivalised total household income (weekly) ($)',
+        'Land area (ha)', 'Median weekly household rental payment ($)', 
+        'Average family size (no. of persons)', 'Total families (no.)']
+
+df = (pd.DataFrame(columns= cols, index=sa2_codes)).rename_axis('SA2_Code', axis=1)
+
+
+folder_path = 'data/landing/suburb_info/'
+
+# print(sa2_codes[11])
+i = 0
+for code in sa2_codes:
+    print(i)
+    i += 1
+    trial_df = pd.read_csv(f"{folder_path}{code}.csv")
+
+    # Take 2021 Year because the data from 2022 don't exist
+
+    try:
+        
+        pop_size = trial_df["2021"].loc[trial_df["Description"] == "Estimated resident population (no.)"].values[0]
+        
+        income = trial_df["2021"].loc[trial_df["Description"] == 'Median equivalised total household income (weekly) ($)'].values[0]
+
+        area = trial_df["2021"].loc[trial_df["Description"] == 'Land area (ha)'].values[0]
+
+        median_rent = trial_df["2021"].loc[trial_df["Description"] == 'Median weekly household rental payment ($)'].values[0]
+
+        avg_family = trial_df["2021"].loc[trial_df["Description"] == 'Average family size (no. of persons)'].values[0]
+
+        total_family = trial_df["2021"].loc[trial_df["Description"] == 'Total families (no.)'].values[0]
+        
+        df.loc[code] = [pop_size, income, area, median_rent, avg_family, total_family]
+    
+    except IndexError:
+        print("Error occured at index", i - 1)
+        continue
+    
+df.to_csv("data/curated/suburb_info.csv", index_label="SA2_codes")

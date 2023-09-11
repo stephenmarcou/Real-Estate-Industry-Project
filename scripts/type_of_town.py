@@ -54,8 +54,6 @@ def all_town_lat_long_data():
 
         i += 1
 
-
-
 def get_all_towns():
     """Returns DataFrame of all towns in VIC"""
     places = "https://www.victorianplaces.com.au/places"
@@ -120,16 +118,55 @@ def get_city_centre_data():
     pd.DataFrame(s).to_csv('data/landing/city_centres.csv')
 
 def get_coastal_town_data():
-    pass
+    COASTAL_TOWNS_URL = "https://en.wikipedia.org/wiki/Category:Coastal_towns_in_Victoria_(state)"
+
+    response = requests.get(COASTAL_TOWNS_URL)
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    li_elements = soup.find_all('li')
+
+    currently_a_town = False
+
+    town_list = []
+
+    for li in li_elements:
+
+        if currently_a_town:
+            town_list.append(li.text)
+            if li.text == 'Yanakie, Victoria':
+                break
+        else:
+            if li.text == 'Agnes, Victoria':
+                currently_a_town = True
+
+    town_list = [town.split(', Victoria')[0] for town in town_list]
+    pd.DataFrame(town_list, columns=['coastal_town']).to_csv('../data/raw/coastal_towns.csv', index=None)                
+
+def get_ballarat_suburbs_data():
+    BALLARAT_SUBURBS = "https://en.wikipedia.org/wiki/Category:Suburbs_of_Ballarat"
+
+    response = requests.get(BALLARAT_SUBURBS)
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    li_elements = soup.find_all('li')
+
+    currently_a_town = False
+
+    town_list = []
+
+    for li in li_elements:
+
+        if currently_a_town:
+            town_list.append(li.text)
+            if li.text == 'Winter Valley':
+                break
+        else:
+            if li.text == 'Alfredton, Victoria':
+                currently_a_town = True
+
+    town_list = [town.split(', Victoria')[0] for town in town_list]
+    pd.DataFrame(town_list, columns=['name']).to_csv('../data/raw/ballarat_suburbs.csv', index=None)    
 
 if __name__ == "__main__":
     #rural_melb_town_data() 
     all_town_lat_long_data()
-
-
-
-# COASTAL_TOWNS_URL = "https://en.wikipedia.org/wiki/Category:Coastal_towns_in_Victoria_(state)"
-# BALLARAT_SUBURBS_URL = "https://en.wikipedia.org/wiki/Category:Suburbs_of_Ballarat"
-# BENDIGO_SUBURBS_URL = "https://en.wikipedia.org/wiki/Category:Suburbs_of_Bendigo"
-# GEELONG_SUBURBS_URL = "https://en.wikipedia.org/wiki/Category:Suburbs_of_Geelong"
-# MELBOURNE_SUBURBS_URL = "https://en.wikipedia.org/wiki/List_of_Melbourne_suburbs"

@@ -34,7 +34,7 @@ def address_to_coordinate(row):
         
         except GeocoderUnavailable:
             print("GeocoderUnavailable: Retrying in 5 seconds...")
-            time.sleep(1)
+            time.sleep(5)
 
     
 hospital_curated["coordinate"] = hospital_curated.apply(address_to_coordinate, axis=1)

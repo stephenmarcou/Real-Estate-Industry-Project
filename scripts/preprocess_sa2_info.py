@@ -17,10 +17,11 @@ sa2_codes = vic_df['SA2_CODE_2021'].values
 sa2_codes = [str(int(x)) for x in sa2_codes if str(x).startswith('2')]
 sa2_codes = list(dict.fromkeys(sa2_codes))
 
-cols = ["Estimated resident population (no.)", 
+cols = ["Estimated resident population (no.)", "Population density (persons/km2)",
+        "Employed (no.)", "Unemployed (no.)", "Unemployment rate (%)", "Participation rate (%)",
         'Median equivalised total household income (weekly) ($)',
         'Land area (ha)', 'Median weekly household rental payment ($)', 
-        'Average family size (no. of persons)', 'Total families (no.)']
+        'Average family size (no. of persons)', 'Total families (no.)', 'Total dwellings (no.)']
 
 df = (pd.DataFrame(columns= cols, index=sa2_codes)).rename_axis('SA2_Code', axis=1)
 
@@ -40,6 +41,16 @@ for code in sa2_codes:
         
         pop_size = trial_df["2021"].loc[trial_df["Description"] == "Estimated resident population (no.)"].values[0]
         
+        pop_density = trial_df["2021"].loc[trial_df["Description"] == "Population density (persons/km2)"].values[0]
+        
+        num_employed = trial_df["2021"].loc[trial_df["Measure Code"] == "LF_6"].values[0]
+        
+        num_unemployed = trial_df["2021"].loc[trial_df["Measure Code"] == "LF_3"].values[0]
+        
+        unemploy_rate = trial_df["2021"].loc[trial_df["Description"] == "Unemployment rate (%)"].values[0]
+        
+        part_rate = trial_df["2021"].loc[trial_df["Description"] == "Participation rate (%)"].values[0]
+        
         income = trial_df["2021"].loc[trial_df["Description"] == 'Median equivalised total household income (weekly) ($)'].values[0]
 
         area = trial_df["2021"].loc[trial_df["Description"] == 'Land area (ha)'].values[0]
@@ -50,7 +61,10 @@ for code in sa2_codes:
 
         total_family = trial_df["2021"].loc[trial_df["Description"] == 'Total families (no.)'].values[0]
         
-        df.loc[code] = [pop_size, income, area, median_rent, avg_family, total_family]
+        dwellings = trial_df["2021"].loc[trial_df["Description"] == 'Total dwellings (no.)'].values[0]
+        
+        df.loc[code] = [pop_size, pop_density, num_employed, num_unemployed, unemploy_rate, part_rate,
+                        income, area, median_rent, avg_family, total_family, dwellings]
     
     except IndexError:
         print("Error occured at index", i - 1)

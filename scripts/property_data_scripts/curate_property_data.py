@@ -81,16 +81,16 @@ cleaned_properties['Postcode'] = cleaned_properties['name'].str.extract(r'\bVIC\
 
 #dropping the rows with no postcode 
 cleaned_properties['Postcode'] = pd.to_numeric(cleaned_properties['Postcode'], errors='coerce')
-cleaned_properties = cleaned_properties.dropna(cleaned_properties=['Postcode'])
+cleaned_properties = cleaned_properties.dropna()
 cleaned_properties['Postcode'] = cleaned_properties['Postcode'].astype(int)
 
 
 #turning beds, baths and parking to ints
 columns_to_convert = ['beds', 'baths', 'parking']
 for col in columns_to_convert:
-    property_data[col] = property_data[col].astype(str)
-    property_data[col] = property_data[col].str.extract(r'(\d+)')
-    property_data[col] = property_data[col].fillna(0).astype(int)
+    cleaned_properties[col] = cleaned_properties[col].astype(str)
+    cleaned_properties[col] = cleaned_properties[col].str.extract(r'(\d+)')
+    cleaned_properties[col] = cleaned_properties[col].fillna(0).astype(int)
 
 
 # Specify the folder and file path

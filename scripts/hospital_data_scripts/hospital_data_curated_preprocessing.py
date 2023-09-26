@@ -39,8 +39,15 @@ def address_to_coordinate(row):
     
 hospital_curated["coordinate"] = hospital_curated.apply(address_to_coordinate, axis=1)
 
+hospital_curated = hospital_curated.dropna(subset=["coordinate"])
+
 hospital_curated_dir = "data/curated/hospital_data/"
 if not os.path.exists(hospital_curated_dir):
     os.makedirs(hospital_curated_dir)
     
-hospital_curated.to_csv(hospital_curated_dir + "hospital_data_curated.csv")
+hospital_curated.to_csv(hospital_curated_dir + "hospital_data_curated.csv", index=False)
+
+# merge sa2 data with hospital data
+sa2_postcode_data = pd.read_csv("data/curated/sa2_to_postcode/sa2_to_postcode.csv")
+hospital_data_s2 = pd.merge(hospital_curated, sa2_postcode_data, left_on="postcode", right_on="postcode", how = "left")
+hospital_data_s2.to_csv(hospital_curated_dir + "hospital_data_curated_sa2.csv", index=False)

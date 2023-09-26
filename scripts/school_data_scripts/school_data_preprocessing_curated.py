@@ -19,23 +19,13 @@ null_value_list = [None for i in range(len(columns_vce_results))]
 
 merged_school_data.loc[merged_school_data["school_type"] == "primary", columns_vce_results] = null_value_list
 
-
 school_data_curated_dir = "data/curated/school_data/"
 if not os.path.exists(school_data_curated_dir):
     os.makedirs(school_data_curated_dir)
     
 merged_school_data.to_csv(school_data_curated_dir + "school_data.csv", index=False)
 
-# merge sa2 codes with school_data
-sa2_postcode_data = pd.read_csv("data/curated/sa2_to_postcode/sa2_to_postcode.csv")
-school_data_s2 = pd.merge(merged_school_data, sa2_postcode_data, left_on="address_postcode", right_on="postcode")
-school_data_s2 = school_data_s2.drop("address_postcode", axis=1)
-
-school_data_s2.to_csv(school_data_curated_dir + "school_data_s2.csv", index=False)
-
-
-
-
+school_data_curated_dir = "data/curated/school_data/"
 # --- preprocess university_location_raw.csv ---
 university_raw = pd.read_csv("data/raw/school_data/university_location_raw.csv")
 # drop irrelevant columns
@@ -47,10 +37,5 @@ university_raw = university_raw[university_raw["state"] == "vic"]
 
 
 university_raw.to_csv(school_data_curated_dir + "university_location_curated.csv", index=False)
-
-# merge sa2 with university data
-university_data_s2 = pd.merge(university_raw, sa2_postcode_data, left_on="postcode", right_on="postcode", how = "left")
-
-university_data_s2.to_csv(school_data_curated_dir + "university_location_curated_s2.csv", index=False)
 
 

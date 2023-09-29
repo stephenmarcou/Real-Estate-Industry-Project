@@ -132,7 +132,9 @@ df_sorted = joined_df.sort_values(by='Weekly Rent Amount')
 cleaned_properties = df_sorted
 
 # dropping 0,0 coordinates 
-df_curated = cleaned_properties[~((cleaned_properties["coordinates"].str[0] == 0) & (cleaned_properties["coordinates"].str[1] == 0))]
+df_curated = cleaned_properties[~((cleaned_properties["coordinates"].str[0] == 0.0) & (cleaned_properties["coordinates"].str[1] == 0.0))]
+
+df_curated = df_curated[~(df_curated["coordinates"] == "[0.0, 0.0]")]
 
 # Specify the folder and file path
 folder_path = 'data/curated/'

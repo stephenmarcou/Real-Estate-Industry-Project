@@ -129,8 +129,9 @@ joined_df.reset_index(drop=True, inplace=True)
 
 #might want to deal with those bedroom for rent ones
 df_sorted = joined_df.sort_values(by='Weekly Rent Amount')
-df_curated = df_sorted
+cleaned_properties = df_sorted
 
+df_curated = cleaned_properties[~((cleaned_properties["coordinates"].str[0] == 0) & (cleaned_properties["coordinates"].str[1] == 0))]
 
 # Specify the folder and file path
 folder_path = 'data/curated/'

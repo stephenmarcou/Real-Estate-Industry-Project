@@ -79,6 +79,10 @@ cleaned_properties.rename(columns={'Rent Amount': 'Weekly Rent Amount'}, inplace
 #taking the postcode out
 cleaned_properties['Postcode'] = cleaned_properties['name'].str.extract(r'\bVIC\s(\d{4})\b')
 
+# drop properties with coordinates [0,0]
+cleaned_properties[~(
+    (cleaned_properties["coordinates"].str[0] == 0) & (cleaned_properties["coordinates"].str[1] == 0))]
+
 
 
 # Specify the folder and file path

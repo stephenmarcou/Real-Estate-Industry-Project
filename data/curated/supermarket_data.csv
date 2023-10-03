@@ -1,345 +1,485 @@
-Postcode,Total_Supermarkets,Major_Supermarkets
-3000,11,0
-3001,1,0
-3006,1,0
-3008,2,0
-3011,3,0
-3012,1,0
-3013,3,0
-3015,1,0
-3016,2,0
-3018,3,0
-3019,5,0
-3020,5,0
-3021,7,0
-3023,8,0
-3024,4,0
-3025,4,0
-3026,1,0
-3028,4,0
-3029,6,0
-3030,12,0
-3031,10,0
-3032,2,0
-3033,2,0
-3034,2,0
-3037,5,0
-3038,4,0
-3039,4,0
-3040,3,0
-3041,3,0
-3042,6,0
-3043,2,0
-3044,2,0
-3046,4,0
-3047,5,0
-3048,1,0
-3049,1,0
-3051,6,0
-3053,1,0
-3054,1,0
-3055,1,0
-3056,5,0
-3057,1,0
-3058,7,0
-3059,1,0
-3060,1,0
-3061,2,0
-3064,10,0
-3065,3,0
-3066,1,0
-3068,1,0
-3070,5,0
-3071,3,0
-3072,11,0
-3073,5,0
-3074,3,0
-3075,4,0
-3076,3,0
-3078,1,0
-3079,3,0
-3081,3,0
-3082,3,0
-3083,3,0
-3084,3,0
-3085,1,0
-3088,6,0
-3089,2,0
-3093,1,0
-3094,1,0
-3095,3,0
-3099,1,0
-3101,3,0
-3102,1,0
-3103,4,0
-3104,5,0
-3105,4,0
-3106,2,0
-3107,2,0
-3108,3,0
-3109,3,1
-3111,1,0
-3113,1,0
-3116,4,0
-3121,5,0
-3122,4,0
-3123,4,0
-3124,5,0
-3125,1,0
-3126,1,0
-3127,2,0
-3128,9,0
-3130,1,0
-3131,4,0
-3132,1,0
-3133,4,0
-3134,4,0
-3135,2,0
-3136,8,0
-3137,3,0
-3138,2,0
-3139,2,0
-3140,3,0
-3141,4,0
-3142,1,0
-3143,3,0
-3144,2,0
-3145,4,0
-3146,4,0
-3147,3,0
-3149,4,0
-3150,9,0
-3151,3,0
-3152,4,0
-3153,5,0
-3155,6,0
-3156,4,0
-3160,1,0
-3162,2,0
-3163,6,0
-3164,1,0
-3165,4,0
-3166,7,0
-3168,5,0
-3169,3,0
-3170,5,0
-3171,7,0
-3172,3,0
-3173,3,0
-3174,4,0
-3175,19,0
-3177,2,0
-3178,5,0
-3179,1,0
-3181,5,0
-3182,4,0
-3183,5,0
-3184,3,0
-3185,2,0
-3186,8,0
-3188,3,0
-3189,1,0
-3190,1,0
-3191,1,0
-3192,3,0
-3193,3,0
-3194,3,0
-3195,4,0
-3196,4,0
-3197,3,0
-3198,3,0
-3199,7,0
-3200,1,0
-3201,3,0
-3204,4,0
-3205,2,0
-3206,3,0
-3207,3,0
-3212,2,0
-3214,5,0
-3215,3,0
-3216,14,0
-3218,5,0
-3219,3,0
-3220,4,0
-3222,3,0
-3223,2,0
-3224,2,0
-3225,1,0
-3226,4,0
-3227,1,0
-3228,2,0
-3230,2,0
-3232,1,0
-3233,2,0
-3241,1,0
-3250,1,0
-3260,1,0
-3266,2,0
-3272,2,0
-3280,7,0
-3282,1,0
-3284,1,0
-3289,1,0
-3300,3,0
-3305,2,0
-3318,2,0
-3324,2,0
-3331,1,0
-3337,11,0
-3338,2,0
-3340,4,0
-3342,1,0
-3350,5,0
-3351,4,0
-3352,1,0
-3355,5,0
-3356,3,0
-3357,1,0
-3361,1,0
-3370,1,0
-3377,2,0
-3380,2,0
-3381,1,0
-3390,1,1
-3393,2,0
-3396,1,0
-3400,3,0
-3418,1,0
-3419,1,0
-3423,1,0
-3427,1,0
-3429,5,0
-3431,1,0
-3434,1,0
-3437,3,0
-3440,1,0
-3442,1,0
-3444,3,0
-3460,1,0
-3465,3,0
-3483,1,0
-3490,1,0
-3496,4,0
-3498,2,0
-3500,7,0
-3505,3,0
-3517,1,0
-3523,2,0
-3527,1,0
-3533,1,0
-3537,1,0
-3549,1,0
-3550,11,0
-3551,1,0
-3555,6,0
-3556,1,0
-3558,2,0
-3561,1,0
-3563,1,0
-3564,4,0
-3568,1,0
-3579,2,0
-3585,5,0
-3595,1,0
-3616,2,0
-3620,2,0
-3629,4,1
-3630,5,0
-3631,2,0
-3638,1,0
-3644,3,0
-3658,1,0
-3660,5,0
-3666,1,0
-3669,1,0
-3672,4,0
-3677,3,0
-3690,7,0
-3699,1,0
-3700,1,0
-3701,1,0
-3707,1,0
-3713,1,0
-3714,1,0
-3717,1,0
-3722,1,0
-3723,1,0
-3728,1,0
-3730,1,0
-3737,3,0
-3741,3,0
-3747,1,0
-3752,3,0
-3754,2,0
-3756,3,0
-3757,3,0
-3764,3,0
-3765,1,0
-3770,1,0
-3777,1,0
-3779,1,0
-3781,1,0
-3782,2,0
-3788,1,0
-3793,1,0
-3796,1,0
-3797,1,0
-3799,1,0
-3802,3,0
-3803,2,0
-3804,1,0
-3805,6,0
-3806,7,0
-3807,1,0
-3808,1,0
-3809,1,0
-3810,7,0
-3815,2,0
-3818,3,0
-3820,2,0
-3823,1,0
-3824,1,0
-3825,6,0
-3831,1,0
-3840,4,0
-3844,2,0
-3850,6,0
-3851,1,0
-3854,1,0
-3858,1,0
-3860,1,0
-3862,1,0
-3871,1,0
-3875,2,0
-3880,1,0
-3888,1,0
-3892,2,0
-3898,2,0
-3909,3,0
-3910,2,0
-3912,4,0
-3913,1,0
-3915,7,0
-3919,1,0
-3922,3,0
-3930,1,0
-3931,4,0
-3936,1,0
-3937,1,0
-3939,3,0
-3941,1,0
-3943,1,0
-3953,1,0
-3960,2,0
-3962,1,0
-3966,1,0
-3971,1,0
-3975,2,0
-3976,6,0
-3977,10,0
-3978,1,0
-3980,1,0
-3981,1,0
-3984,1,0
-3995,3,0
+Town,Postcode,Total,Major
+Aberfeldie,3040,1,1
+Airport West,3042,4,4
+Albert Park,3206,2,2
+Alexandra,3714,1,1
+Alfredton,3350,1,0
+Altona,3018,3,3
+Altona Meadows,3028,3,3
+Altona North,3025,4,3
+Anglesea,3230,2,1
+Apollo Bay,3233,2,2
+Ararat,3377,2,2
+Armadale,3143,3,3
+Ascot Vale,3032,1,1
+Ashburton,3147,3,1
+Aspendale,3195,2,1
+Avondale Heights,3034,2,2
+Bacchus Marsh,3340,3,3
+Bairnsdale,3875,2,2
+Balaclava,3183,5,3
+Ballan,3342,1,1
+Ballarat,3350,2,2
+Ballarat Central,3350,1,1
+Balwyn,3103,4,4
+Balwyn North,3104,5,4
+Bannockburn,3331,1,1
+Barwon Heads,3227,1,1
+Bayswater,3153,4,3
+Bayswater North,3153,1,0
+Beaconsfield,3807,1,1
+Beaconsfield Upper,3808,1,1
+Beaumaris,3193,1,1
+Beechworth,3747,1,1
+Belgrave,3160,1,1
+Bell Park,3215,2,1
+Belmont,3216,5,2
+Benalla,3672,4,4
+Bendigo,3550,4,1
+Bentleigh,3204,3,3
+Bentleigh East,3165,3,2
+Berwick,3806,6,4
+Birchip,3483,1,1
+Birdwoodton,3505,1,0
+Black Rock,3193,2,2
+Blackburn,3130,1,1
+Boort,3537,1,1
+Boronia,3155,4,3
+Boronia Heights,3155,1,0
+Boronia Village,3155,1,0
+Box Hill,3128,8,4
+Box Hill South,3128,1,0
+Braybrook,3019,5,3
+Bright,3741,2,2
+Brighton,3186,5,4
+Brighton Middle,3186,1,1
+Brighton North,3186,2,1
+Broadford,3658,1,0
+Broadmeadows,3047,3,3
+Brunswick,3056,5,3
+Brunswick East,3057,1,0
+Brunswick West,3055,1,1
+Bulleen,3105,4,2
+Bundoora,3083,2,2
+Buninyong,3357,1,1
+Bunyip,3815,2,2
+Burnside,3023,1,1
+Burwood,3125,1,0
+Burwood East,3151,3,2
+Cairnlea,3023,1,1
+Camberwell,3124,5,4
+Campbellfield,3061,2,2
+Camperdown,3260,1,1
+Canterbury,3126,1,1
+Carlton,3053,1,1
+Carlton North,3054,1,1
+Carnegie,3163,2,2
+Caroline Springs,3023,1,1
+Caroline Springs,3037,1,1
+Carrum,3197,1,1
+Carrum Downs,3201,3,3
+Caulfield,3162,2,2
+Chelsea,3196,2,1
+Chelsea Heights,3196,1,1
+Cheltenham,3192,3,3
+Chirnside Park,3116,4,4
+Clarinda,3169,1,1
+Clayton,3168,5,3
+Clayton South,3169,2,1
+Clunes,3370,1,0
+Clyde North,3977,1,1
+Clyde North,3978,1,1
+Cobden,3266,1,1
+Cobram,3644,3,2
+Coburg,3058,4,3
+Coburg North,3058,2,2
+Cockatoo,3781,1,1
+Cohuna,3568,1,0
+Colac,3250,1,1
+Coldstream,3770,1,1
+Collingwood,3066,1,1
+Corio,3214,3,3
+Corryong,3707,1,1
+Cowes,3922,3,3
+Craigieburn,3064,4,2
+Cranbourne,3977,6,4
+Cranbourne West,3977,2,1
+Crib Point,3919,1,0
+Croydon,3136,5,4
+Croydon North,3136,2,2
+Croydon South,3136,1,1
+Curlewis,3222,1,1
+Dallas,3047,2,1
+Dandenong,3175,14,5
+Dandenong North,3175,3,1
+Dandenong South,3164,1,0
+Dandenong South,3175,2,2
+Darley,3340,1,1
+Daylesford,3460,1,1
+Deer Park,3021,1,1
+Deer Park,3023,4,3
+Delahey,3037,1,1
+Dennington,3280,1,1
+Derrimut,3030,3,2
+Diamond Creek,3089,2,2
+Diggers Rest,3427,1,1
+Dingley Village,3172,1,1
+Docklands,3008,2,1
+Doncaster,3108,3,2
+Doncaster East,3109,2,1
+Donvale,3111,1,1
+Doreen,3754,1,1
+Doveton,3177,2,0
+Dromana,3936,1,1
+Drouin,3818,3,3
+Drysdale,3222,2,2
+Eaglehawk,3556,1,1
+Eaglemont,3084,1,1
+Echuca,3564,4,3
+Edenhope,3318,2,1
+Edithvale,3196,1,1
+Eildon,3713,1,1
+Elmore,3558,2,1
+Elsternwick,3185,2,2
+Eltham,3095,3,3
+Elwood,3184,3,1
+Emerald,3782,2,2
+Endeavour Hills,3802,3,3
+Epping,3076,3,2
+Eskdale,3701,1,1
+Essendon,3040,2,2
+Essendon Fields,3041,1,0
+Euroa,3666,1,0
+Eynesbury,3338,1,0
+Fairfield,3078,1,1
+Fawkner,3060,1,0
+Ferntree Gully,3156,3,2
+Fitzroy,3065,3,3
+Fitzroy North,3068,1,0
+Flemington,3031,3,2
+Footscray,3011,3,1
+Forest Hill,3131,4,3
+Foster,3960,2,2
+Frankston,3199,5,5
+Frankston North,3200,1,1
+Geelong,3220,4,3
+Geelong West,3218,5,3
+Gisborne,3437,3,2
+Gladstone Park,3043,2,1
+Glen Huntly,3163,2,1
+Glen Iris,3146,3,2
+Glen Waverley,3150,7,3
+Glenfyne,3266,1,1
+Glengarry,3854,1,1
+Glenroy,3046,3,2
+Golden Square,3555,2,2
+Greensborough,3088,5,4
+Greenvale,3059,1,1
+Grovedale,3216,5,5
+Grovedale East,3216,1,1
+Haddon,3351,1,0
+Hadfield,3046,1,1
+Hallam,3803,2,2
+Halls Gap,3381,1,0
+Hamilton,3300,3,3
+Hamlyn Heights,3215,1,1
+Hampton,3188,3,3
+Hampton Park,3976,6,3
+Hastings,3915,7,6
+Hawthorn,3122,4,2
+Hawthorn East,3123,4,1
+Healesville,3777,1,1
+Heathcote,3523,2,2
+Heidelberg,3084,1,1
+Heidelberg West,3081,3,2
+Heyfield,3858,1,1
+Highett,3190,1,1
+Highton,3216,2,2
+Hillside,3037,1,1
+Hopetoun,3396,1,1
+Hoppers Crossing,3029,5,3
+Horsham,3400,3,2
+Hurstbridge,3099,1,1
+Inglewood,3517,1,1
+Irymple,3498,2,1
+Ivanhoe,3079,3,3
+Jeparit,3423,1,0
+Kangaroo Flat,3555,4,3
+Kaniva,3419,1,1
+Karingal,3199,2,2
+Keilor Downs,3038,2,2
+Keilor East,3033,2,2
+Keilor Park,3042,1,0
+Kennington,3550,2,2
+Kensington,3031,5,2
+Kerang,3579,2,2
+Kew,3101,3,2
+Kew East,3102,1,1
+Keysborough,3173,3,2
+Kialla,3631,1,1
+Kilmore,3764,3,3
+Kilsyth,3137,3,2
+Kingsbury,3083,1,1
+Koo Wee Rup,3981,1,1
+Koroit,3282,1,1
+Kyabram,3620,2,2
+Kyneton,3444,3,2
+Lakes Entrance,3909,3,3
+Lalor,3075,4,2
+Lang Lang,3984,1,1
+Langwarrin,3910,2,2
+Lara,3212,2,2
+Laverton,3028,1,0
+Laverton North,3026,1,0
+Leongatha,3953,1,1
+Leopold,3224,2,2
+Lilydale,3140,3,3
+Lismore,3324,2,2
+Loch Sport,3851,1,1
+Lockington,3563,1,1
+Long Gully,3550,3,3
+Lorne,3232,1,1
+Lower Plenty,3093,1,1
+Lucas,3350,1,1
+Lynbrook,3975,1,1
+Lyndhurst,3975,1,0
+Macedon,3440,1,1
+Macleod,3085,1,1
+Maffra,3860,1,1
+Maiden Gully,3551,1,1
+Mallacoota,3892,2,2
+Malvern,3144,2,2
+Malvern East,3145,4,3
+Manor Lakes,3024,2,2
+Mansfield,3722,1,1
+Maribyrnong,3032,1,0
+Maryborough,3465,3,3
+Marysville,3779,1,1
+McCrae,3939,1,1
+McKinnon,3204,1,0
+Meadow Heights,3048,1,1
+Melbourne,3000,11,6
+Melbourne,3001,1,0
+Melton,3337,9,4
+Melton South,3338,1,1
+Melton West,3337,2,2
+Mentone,3194,3,3
+Merbein,3505,2,2
+Merlynston,3058,1,0
+Mernda,3754,1,1
+Middle Park,3206,1,1
+Mildura,3500,7,6
+Mill Park,3082,3,2
+Miners Rest,3352,1,0
+Mirboo North,3871,1,1
+Mitcham,3132,1,1
+Mitchell Park,3355,1,1
+Moe,3825,5,4
+Monbulk,3793,1,1
+Mont Albert,3127,1,1
+Montmorency,3094,1,1
+Montrose,3765,1,1
+Moonee Ponds,3039,4,1
+Moorabbin,3189,1,1
+Mooroolbark,3138,2,2
+Mooroopna,3629,4,3
+Mordialloc,3195,2,1
+Mornington,3931,4,3
+Mortlake,3272,2,1
+Morwell,3840,4,4
+Mount Waverley,3149,1,1
+Mt Beauty,3699,1,1
+Mt Buller,3723,1,0
+Mt Eliza,3930,1,1
+Mt Evelyn,3796,1,1
+Mt Hotham,3741,1,0
+Mt Waverley,3149,3,2
+Mulgrave,3170,5,3
+Murrumbeena,3163,2,2
+Murtoa,3390,1,1
+Myrtleford,3737,3,3
+Narre Warren,3805,4,3
+Narre Warren,3806,1,1
+Narre Warren North,3804,1,1
+Narre Warren South,3805,2,2
+Nathalia,3638,1,1
+Neerim South,3831,1,1
+Newcomb,3219,3,2
+Newmarket,3031,2,0
+Newport,3015,1,1
+Nhill,3418,1,1
+Niddrie,3042,1,1
+Noble Park,3174,4,2
+Norlane,3214,2,2
+North Melbourne,3051,6,3
+Northcote,3070,4,4
+Nyah West,3595,1,1
+Oakleigh,3166,6,4
+Oakleigh East,3166,1,1
+Ocean Grove,3226,4,3
+Officer,3809,1,1
+Olinda,3788,1,0
+Omeo,3898,1,1
+Orbost,3888,1,1
+Ouyen,3490,1,0
+Pakenham,3810,7,6
+Pascoe Vale South,3044,2,0
+Patterson Lakes,3197,2,2
+Paynesville,3880,1,1
+Pearcedale,3912,1,1
+Penshurst,3289,1,0
+Point Cook,3030,4,3
+Port Fairy,3284,1,0
+Port Melbourne,3207,3,2
+Portarlington,3223,1,1
+Portland,3305,2,2
+Prahran,3181,5,3
+Preston,3072,11,5
+Queenscliff,3225,1,1
+Red Cliffs,3496,4,3
+Red Hill South,3937,1,0
+Reservoir,3073,5,4
+Richmond,3121,5,3
+Riddells Creek,3431,1,1
+Ringwood,3134,4,2
+Ringwood East,3135,2,1
+Ritchies Stores Pt, Ltd,8,1
+Robinvale,3549,1,1
+Rochester,3561,1,1
+Romsey,3434,1,1
+Rosanna,3084,1,1
+Rosebud,3939,2,2
+Rowville,3178,5,3
+Roxburgh Park,3064,6,3
+Rye,3941,1,1
+S,ping,1,0
+SK Asian Groc,ries,1,0
+SPICE SUPERMARKETZ NOBLE,PARK,1,0
+SPICES & LENTILS- Srilankan and Indian gr,cery,1,0
+SSK Groc,ries,1,0
+Sa,eway,8,0
+Saffron International Australia Pty,ltd.,1,0
+Sagar S,ices,1,0
+Sale,3850,6,6
+Sale Asian Groc,ries,1,0
+Sampaguita Sari-Sari ,tore,1,0
+Sams Fruit ,orld,1,0
+Sams Supermarket Pt, Ltd,1,0
+Sandringham,3191,1,1
+Sari Sari Asian Groc,ries,1,0
+Schroeder's Sup, IGA,1,0
+Scoresby,3179,1,1
+Scoresby Convenience ,tore,1,0
+Sea Lake,3533,1,1
+Seaford,3198,3,3
+Sebastopol,3356,3,2
+Seoul Gr,cery,1,0
+Settlement Superm,rket,1,0
+Seville,3139,1,1
+Seymour,3660,5,5
+Shepparton,3630,5,4
+Shepparton East,3631,1,1
+Shri Ram Groc,ries,2,0
+Sims Superm,rket,1,0
+Sims Supermarket Ad,ress,1,0
+Skipton,3361,1,1
+Skye,3977,1,0
+Smythes Creek,3351,2,1
+Smythesdale,3351,1,1
+Somerville,3912,3,3
+Soon Lee Asian Gr,cery,1,0
+Sorrento,3943,1,1
+South Melbourne,3205,2,2
+South Morang,3752,3,1
+South Yarra,3141,4,1
+Southbank,3006,1,0
+Spice G,lore,1,0
+Spicelicious Pt, Ltd,1,0
+Spices & Saree B,zaar,1,0
+Springvale,3171,7,2
+Springvale South,3172,2,1
+St Albans,3021,6,2
+St Albans Foo,-way,1,0
+St Albans Sup, IGA,1,0
+St Helena,3088,1,1
+St Kilda,3182,4,4
+St Kilda Road IGA X,ress,1,0
+St Leonards,3223,1,1
+St Leonards Mixed Bus,ness,1,0
+Stanhope Superm,rket,1,0
+Stawell,3380,2,2
+Stratford,3862,1,1
+Strathdale,3550,2,2
+Strathmore,3041,2,2
+Studfield Lic Superm,rket,1,0
+Sunbury,3429,5,2
+Sunshine,3020,1,1
+Sunshine Fruit Market & International Groc,ries,1,0
+Sunshine North,3020,1,1
+Sunshine West,3020,3,3
+Sunshine West,3023,1,1
+Supa Cheap Groceries Fa,kner,1,0
+Surrey Hills,3127,1,1
+Swan Hill,3585,5,4
+Tallangatta,3700,1,1
+Tan Phat Asian Gr,cery,1,0
+Tarneit,3029,1,1
+Tarneit,3030,1,1
+Tarwin Food,orks,1,0
+Tatura,3616,2,2
+Taylors Hill,3037,2,2
+Taylors Lakes,3038,2,1
+Templestowe,3106,2,2
+Templestowe Lower,3107,2,1
+Terang & District Co-Op Societ, Ltd,1,0
+Terang & District Co-operativ, Ltd,1,0
+Thai Sun Food M,rket,1,0
+Thanh Phat Superm,rket,1,0
+Thomastown,3074,3,3
+Thornbury,3071,3,2
+Toora,3962,1,1
+Tooradin,3980,1,1
+Toorak,3142,1,1
+Torquay,3228,2,2
+Trafalgar,3824,1,1
+Traralgon,3844,2,1
+Tungamah,3728,1,0
+Tyabb,3913,1,0
+Upper Ferntree Gully,3156,1,0
+Vermont,3133,2,1
+Vermont South,3133,2,2
+Violet Town,3669,1,0
+Wallan,3756,3,3
+Wandin North,3139,1,0
+Wangaratta,3677,3,3
+Wantirna South,3152,4,3
+Warburton,3799,1,1
+Warracknabeal,3393,2,2
+Warragul,3820,2,2
+Warrandyte,3113,1,1
+Warrnambool,3280,5,4
+Warrnambool North,3280,1,1
+Waurn Ponds,3216,1,1
+Welshpool,3966,1,0
+Wendouree,3355,4,3
+Werribee,3030,4,3
+West Footscray,3012,1,0
+West Wodonga,3690,2,2
+Westgarth,3070,1,1
+Westmeadows,3049,1,1
+Wheelers Hill,3150,2,1
+Whittlesea,3757,3,2
+Williamstown,3016,2,2
+Winchelsea,3241,1,1
+Wodonga,3690,5,4
+Wonthaggi,3995,3,3
+Woodend,3442,1,1
+Wycheproof,3527,1,1
+Wyndham Vale,3024,2,2
+Yallourn North,3825,1,1
+Yarra Junction,3797,1,1
+Yarragon,3823,1,0
+Yarram,3971,1,1
+Yarraville,3013,3,1
+Yarrawonga,3730,1,1
+Yea,3717,1,1

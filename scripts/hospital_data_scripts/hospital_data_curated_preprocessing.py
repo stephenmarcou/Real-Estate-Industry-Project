@@ -39,9 +39,6 @@ def address_to_coordinate(row):
     
 hospital_curated["coordinate"] = hospital_curated.apply(address_to_coordinate, axis=1)
 
-# drop hospitals without coordinate
-hospital_curated = hospital_curated.dropna(subset=["coordinate"])
-
 hospital_curated_dir = "data/curated/hospital_data/"
 if not os.path.exists(hospital_curated_dir):
     os.makedirs(hospital_curated_dir)

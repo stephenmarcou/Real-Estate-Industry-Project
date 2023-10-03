@@ -41,7 +41,7 @@ for code in sa2_codes:
     for year in years:
         try:
             
-            pop_size = trial_df[year].loc[trial_df["Description"] == "Estimated resident population (no.)"].values[0]
+            # pop_size = trial_df[year].loc[trial_df["Description"] == "Estimated resident population (no.)"].values[0]
             
             pop_density = trial_df[year].loc[trial_df["Description"] == "Population density (persons/km2)"].values[0]
             
@@ -63,17 +63,31 @@ for code in sa2_codes:
 
             total_family = trial_df[year].loc[trial_df["Description"] == 'Total families (no.)'].values[0]
             
-            dwellings = trial_df[year].loc[trial_df["Description"] == 'Total dwellings (no.)'].values[0]
+            # dwellings = trial_df[year].loc[trial_df["Description"] == 'Total dwellings (no.)'].values[0]
             
             if year == "2011":
+                pop_size = trial_df["2017"].loc[trial_df["Description"] == "Estimated resident population (no.)"].values[0]
+                
+                dwellings = trial_df["2017"].loc[trial_df["Description"] == 'Total dwellings (no.)'].values[0]
+                
                 df_1.loc[code] = [pop_size, pop_density, num_employed, num_unemployed, num_labour, work_pop,
                             income, area, median_rent, avg_family, total_family, dwellings]
                 
             elif year == "2016":
+                
+                pop_size = trial_df["2019"].loc[trial_df["Description"] == "Estimated resident population (no.)"].values[0]
+                
+                dwellings = trial_df["2019"].loc[trial_df["Description"] == 'Total dwellings (no.)'].values[0]
+                
                 df_2.loc[code] = [pop_size, pop_density, num_employed, num_unemployed, num_labour, work_pop,
                             income, area, median_rent, avg_family, total_family, dwellings]
             
             else:
+                
+                pop_size = trial_df[year].loc[trial_df["Description"] == "Estimated resident population (no.)"].values[0]
+                
+                dwellings = trial_df[year].loc[trial_df["Description"] == 'Total dwellings (no.)'].values[0]
+                
                 df_3.loc[code] = [pop_size, pop_density, num_employed, num_unemployed, num_labour, work_pop,
                             income, area, median_rent, avg_family, total_family, dwellings]
         

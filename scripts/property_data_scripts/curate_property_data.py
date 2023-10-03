@@ -81,9 +81,52 @@ cleaned_properties['Postcode'] = cleaned_properties['name'].str.extract(r'\bVIC\
 
 
 
+#dropping all the 0 bedroom houses
+df_filtered = cleaned_properties[cleaned_properties['beds'] != 0]
+
+# need to deal with the low values and the high values
+df_sorted = df_filtered.sort_values(by='Weekly Rent Amount')
+
+#now drop the storage or car park values from the title
+keywords_to_filter = ['storage', 'Storage', 'STORAGE', 'car']
+mask = df_sorted['title'].str.contains('|'.join(keywords_to_filter), case=False)
+df_filtered = df_sorted[~mask]
+
+
+#dealing with the high rent values
+#can drop all those > 10000 they are scuffed
+df_filtered = df_filtered[df_filtered['Weekly Rent Amount'] < 10000]
+
+#the per month ones are still showing dropping the remaining month ones 
+df = df_filtered.reset_index(drop=True)
+
+keywords_to_filter = ['Per Month', 'pm', 'PER MONTH', 'MONTH']
+mask = df['cost_text'].str.contains('|'.join(keywords_to_filter), case=False)
+df1 = df[mask]
+df2 = df[~mask]
+
+# Just drop the last 6 
+names_to_drop = df1.tail(6)['name'].values
+result_df = df1[~df1['name'].isin(names_to_drop)]
+
+#joining the dataframes back together
+joined_df = pd.concat([result_df, df2], axis=0)
+
+# Reset the index of the result DataFrame if needed
+joined_df.reset_index(drop=True, inplace=True)
+
+#might want to deal with those bedroom for rent ones
+df_sorted = joined_df.sort_values(by='Weekly Rent Amount')
+cleaned_properties = df_sorted
+
+# dropping 0,0 coordinates 
+df_curated = cleaned_properties[~((cleaned_properties["coordinates"].str[0] == 0.0) & (cleaned_properties["coordinates"].str[1] == 0.0))]
+
+df_curated = df_curated[~(df_curated["coordinates"] == "[0.0, 0.0]")]
+
 # Specify the folder and file path
 folder_path = 'data/curated/'
 file_name = 'rental_data.csv' 
 
 # Save the DataFrame to the specified folder
-cleaned_properties.to_csv(folder_path + file_name, index=False)
+df_curated.to_csv(folder_path + file_name, index=False)

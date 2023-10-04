@@ -1,37 +1,34 @@
 feature,weight
-beds,425.0
-distance primary school,406.0
-distance secondary school,336.0
-distance university campus,321.0
-distance to closest hospital,319.0
-parking,240.0
-predicted median equivalised total household income (weekly) ($) 2023,199.0
-closest_cc_dist,176.0
-predicted average family size (no. of persons) 2023,169.0
-predicted median weekly household rental payment ($) 2023,162.0
-baths,158.0
-dist_to_melb,142.0
-offence count 2023,107.0
-predicted employment ratio 2023,88.0
-predicted estimated resident population (no.) 2023,66.0
-property type_Apartment / Unit / Flat,48.0
-predicted total dwellings (no.) 2023,46.0
-is closest school good,24.0
-property type_Townhouse,21.0
-property type_House,18.0
-closest_city_centre_Cranbourne,17.0
-property type_Studio,14.0
-property type_Acreage / Semi-Rural,12.0
-closest_city_centre_Bendigo,10.0
-closest_city_centre_Ballarat,9.0
-closest_city_centre_Benalla,9.0
-property type_Semi-Detached,5.0
-closest_city_centre_Geelong,4.0
-coastal,4.0
-property type_New Apartments / Off the Plan,4.0
-closest_city_centre_Morwell,3.0
+beds,424.0
+distance primary school,395.0
+distance train station,297.0
+distance secondary school,289.0
+distance to closest hospital,263.0
+distance university campus,243.0
+parking,198.0
+baths,174.0
+predicted median equivalised total household income (weekly) ($) 2023,165.0
+closest_cc_dist,164.0
+predicted average family size (no. of persons) 2023,157.0
+predicted median weekly household rental payment ($) 2023,151.0
+dist_to_melb,136.0
+predicted employment ratio 2023,117.0
+offence count 2023,86.0
+predicted estimated resident population (no.) 2023,64.0
+property type_Apartment / Unit / Flat,49.0
+predicted total dwellings (no.) 2023,38.0
+property type_Acreage / Semi-Rural,24.0
+property type_House,22.0
+property type_Townhouse,22.0
+is closest school good,17.0
+property type_Studio,15.0
+closest_city_centre_Cranbourne,13.0
+closest_city_centre_Bendigo,8.0
+closest_city_centre_Ballarat,8.0
+coastal,8.0
+property type_New Apartments / Off the Plan,6.0
+closest_city_centre_Morwell,4.0
 closest_city_centre_Warrnambool,3.0
-closest_city_centre_Melbourne,2.0
-closest_city_centre_Sale,2.0
-closest_city_centre_Wodonga,2.0
+property type_Semi-Detached,1.0
 city_centre,1.0
+closest_city_centre_Horsham,1.0

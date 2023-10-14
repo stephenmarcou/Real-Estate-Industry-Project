@@ -6,18 +6,18 @@ import time
 
 hospital_curated = pd.read_csv("data/raw/hospital_data/hospital_data_raw.csv")
 
-hospital_curated[
-    ["formal name", "emergency capable", "location address", "suburb", "category", "agency type"]] = hospital_curated[
-        ["formal name", "emergency capable", "location address", "suburb", "category", "agency type"]]\
-            .apply(lambda x: x.str.lower())
-
+# drop irrelevant columns
 hospital_curated = hospital_curated.drop(["other name", "access point"], axis=1)
 
-# only keep hospital
+# only keep hospital data not for example medical centres
 keep_rows = hospital_curated["agency type"].str.contains("hospital")
 hospital_curated = hospital_curated[keep_rows]
 
 def address_to_coordinate(row):
+    """ 
+    Funciton converts address to coordinate
+    """
+    
     address = row["location address"] + " " + str(row["postcode"]) + " " + row["suburb"]
     print(address)
     while True:
@@ -42,6 +42,7 @@ hospital_curated["coordinate"] = hospital_curated.apply(address_to_coordinate, a
 # drop hospitals without coordinate
 hospital_curated = hospital_curated.dropna(subset=["coordinate"])
 
+# save curated hospital data
 hospital_curated_dir = "data/curated/hospital_data/"
 if not os.path.exists(hospital_curated_dir):
     os.makedirs(hospital_curated_dir)

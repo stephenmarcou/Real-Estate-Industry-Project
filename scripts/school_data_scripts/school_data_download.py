@@ -15,7 +15,7 @@ def retrieve_url(url, landing_output_dir):
     ''' 
     Function reads in csv file from url, and outputs 
     the csv file at the specified directory by landing_output_dir.
-    Is used to read in school location data
+    It is used to read in school location data
     '''
     output_dir = f"{landing_output_dir}/school_locations.csv"
     # download
@@ -28,6 +28,11 @@ retrieve_url(school_locations_url, landing_output_dir_school_data)
 # -- Scrape VCE results ---
 
 def scrape_vce_results(url):
+    """
+    Function scrapes top 150 schools based on vce results and returns 
+    the it as a dataframe.
+    The input is the url of the website
+    """
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
     tables = soup.find_all('div', {'class': 'table-responsive'})

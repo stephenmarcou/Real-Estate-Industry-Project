@@ -1,14 +1,16 @@
 import pandas as pd
 import os
 
+# read school files
 school_location_raw = pd.read_csv("data/raw/school_data/school_locations_raw.csv")
 vce_results_raw = pd.read_csv("data/raw/school_data/vce_results_raw.csv")
 
+# keep relevant columns
 school_location_raw = school_location_raw[["education_sector", "school_name", "school_type", "address_postcode", 
                                            "lga_name", "coordinate"]]
-
 vce_results_raw = vce_results_raw[["school", "2022 ranking", "median vce score"]]
 
+# merge school location data with top vce schools
 merged_school_data = pd.merge(school_location_raw, vce_results_raw, 
                               left_on="school_name", right_on="school", how="left")
 merged_school_data = merged_school_data.drop(["school"], axis=1)

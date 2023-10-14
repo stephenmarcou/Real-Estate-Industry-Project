@@ -12,6 +12,7 @@ if not os.path.exists(output_dir_postcode):
     os.makedirs(output_dir_postcode)
         
 def download_zip_file(url, output_dir, local_file_path, extract_content = True):
+    """ Function downloads zip file from url and opens the zip and saves the content """
     response = requests.get(url)
     with open(output_dir + local_file_path, "wb") as file:
         file.write(response.content)

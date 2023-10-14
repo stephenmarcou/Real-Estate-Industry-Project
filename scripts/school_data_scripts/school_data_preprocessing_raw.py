@@ -1,7 +1,9 @@
 import pandas as pd
 import re
 import os
-# preprocess school_location.csv
+
+
+# --- preprocess school_location.csv ---
 
 school_loc_df = pd.read_csv("data/landing/school_data/school_locations.csv", encoding="latin1")
 school_loc_df.columns =  school_loc_df.columns.str.lower()
@@ -18,9 +20,13 @@ school_loc_df["school_name"] = school_loc_df["school_name"].apply(lambda x: x.re
 
 # add coordinate column
 def combine_x_y(row):
+    """ 
+    Function combines x and y value of a row, and returns it in tuple form
+    """
     return tuple([float(row["y"]), float(row["x"])])
 school_loc_df["coordinate"] = school_loc_df.apply(combine_x_y, axis=1)
 
+# save raw format of school_data
 raw_dir_school_data = "data/raw/school_data/"
 if not os.path.exists(raw_dir_school_data):
     os.makedirs(raw_dir_school_data)
@@ -51,6 +57,7 @@ university_df[["institution", "campus_name", "address2", "suburb", "state"]] = u
     ["institution", "campus_name", "address2", "suburb", "state"]].apply(lambda x: x.str.lower())
 
 def combine_long_lat(row):
+    """ Funciton combines latitutde and longitude values into a tuple """
     return tuple([float(row["latitude"]), float(row["longitude"])])
 university_df["coordinate"] = university_df.apply(combine_long_lat, axis=1)
 university_df.to_csv(raw_dir_school_data + "university_location_raw.csv", index=False)

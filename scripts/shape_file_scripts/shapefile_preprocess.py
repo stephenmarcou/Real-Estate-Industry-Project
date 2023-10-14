@@ -15,6 +15,7 @@ sf = sf.dropna(subset=["SA2_CODE21"])
 sf = sf[sf["STE_NAME21"] == "Victoria"]
 postcode_sa2_df = postcode_sa2_df.dropna(subset=["POSTCODE"])
 
+# merge postcode dataframe with sa2 shapefile
 gdf = gpd.GeoDataFrame(pd.merge(postcode_sa2_df, sf, left_on = "SA2_CODE_2021", right_on="SA2_CODE21", how="inner"))
 
 

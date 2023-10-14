@@ -12,7 +12,7 @@
 To run the pipeline, please visit the `scripts` directory 
 
 Go to the `property_data_scripts` directory then run the files in order:
-
+   
 1.  `scrapev2.py`: This scrapes all the victorian property data from the domain site saving the dataframe into the `data/landing` directory.
 2.  `preprocessing_property_data.py`: this preprocesses the property data saving the preprocessed data into the `data/raw` directory.
 3.  `curate_property_data.py`: this curates the property data saving the curated data into the `data/curated` directory.
@@ -20,13 +20,35 @@ go to the `crime_data_scripts` directory and run the files in the following orde
 4.  `crime_data_dowmload.py`: this downloads the crime statistics for Victoria and 
 5. `crime_data_preprocess.py`: this preprocesses the crime data saving it into the `data/raw` directory.
 
+6. `postcode_shapefile_download.py`: downloads the postcode shapefiles used for the folium maps and saves into the `data/curated` directory. 
+7. `SA2_shapefile_download.py`: downloads the SA2 shapefiles and postcode_to_SA2 excel file and saves into the `data/landing` directory.
+8. `shapefile_preprocess.py`: preprocesses the SA2 shapefile to geojson and converts postcode_to_SA2 excel file to csv and saves into respectively the `data/curated/geojson` directory and `data/curated/sa2_to_postcode` directory.
+9.  `school_data_download.py`: downloads all victorian school location data and scrapes the 150 top VCE schools saving the data into `data/landing/school_data` 
+10. Manually download all victorian university locations from https://adp-access.aurin.org.au/dataset/aurin-aurin-national-education-dataset-universities-2018-na. Use Unimelb account to log in and save the csv into `data/landing/school_data`
+11. `school_data_preprocessing_raw.py`: preprocesses school and university data and saves into `data/raw/school_data`
+12. `school_data_preprocessing_curated.py`: curates the school and university data and saves into `data/curated/school_data`
+13. `hospital_data_download.py`: downloads the hospital data and saves into `data/landing/hospital_data`
+14. `hospital_data_raw_preprocessing.py`: preprocess the hospital data and saves into `data/raw/hospital_data`
+15. `hospital_data_raw_preprocessing.py`: curates the hospital data (including retrieving coordinates for the locations) saves into `data/curated/hospital_data`
+
+
+
+
 
 ##### Put in all of your scripts you run to get the data
 
 
 ##### run the scripts or notebooks that merge all the data into a single dataframe.
 
+1. `distance_school_houses.ipynb`: this notebook calculates the distance from all properties to closest primary and secondary school, and also to closest university campus. It merges these distance metrics with the property data and is saved into `data/curated/rental_data_distance_uni_school_sf.csv`
+2. `distance_hospital_houses.ipynb`: this notebook calculates the distance from all properties to closest hospital. It merges this distance metric with the output csv from last step and is saved into `data/curated/rental_data_distance_sf.csv`
+
+
+
+
 number. `join_crime_realestate.ipynb`: this notebook will join the crime data with the property data, saving the data to `data/curated` directory.
+
+
 
 
 

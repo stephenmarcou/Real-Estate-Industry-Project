@@ -1,15 +1,55 @@
-Radius from Melbourne (km),Most Affordable Suburb
-"0, 2.5",3008
-"2.5, 5",3181
-"5, 10",3185
-"10, 15",3189
-"15, 20",3030
-"20, 25",3037
-"25, 35",3024
-"35, 50",3340
-"50, 70",3764
-"70, 100",3241
-"100, 150",3351
-"150, 200",3377
-"200, 300",3400
-"300, 500",3505
+Distance from Melbourne CBD,beds,index,Postcode,sum_z_scores,number of properties,cost_per_bed,rent as proportion of income,distance_to_melb_cbd_km,Suburb
+"0, 2.5",1,0,3205,1.0482265080268685,21,500.0,0.37610500937583713,1.6721390497780009,"['South Melbourne', 'Port Melbourne Industrial']"
+"0, 2.5",2,1,3206,-1.089070929177056,12,348.75,0.336734693877551,1.0496799929377751,"['Albert Park', 'South Melbourne', 'St Kilda - West']"
+"0, 2.5",3,2,3008,-0.7842426349368734,9,333.3333333333333,0.36105188343994316,2.412457645872417,"['Docklands', 'West Melbourne - Industrial', 'Southbank (West) - South Wharf', 'Port Melbourne Industrial']"
+"0, 2.5",4,3,3207,0.024704106318637536,4,381.25,0.3806706114398422,1.3611804940522392,"['Port Melbourne', 'Port Melbourne Industrial']"
+"2.5, 5",1,4,3181,0.0013668311090135332,33,400.0,0.2997502081598668,4.487956498091084,"['Prahran - Windsor', 'St Kilda - West']"
+"2.5, 5",2,5,3182,-0.9471988256917949,52,300.0,0.29210526315789476,4.055905929194191,"['St Kilda East', 'St Kilda - West', 'St Kilda - Central']"
+"2.5, 5",3,6,3181,-0.8357285257994345,17,308.3333333333333,0.2997502081598668,4.428889161872742,"['Prahran - Windsor', 'St Kilda - West']"
+"2.5, 5",4,7,3182,-0.9471988256917949,7,300.0,0.29210526315789476,4.160871056085607,"['St Kilda East', 'St Kilda - West', 'St Kilda - Central']"
+"5, 10",1,8,3078,0.08000250903540426,9,349.0,0.3049613108784706,9.747619416778202,"['Northcote - East', 'Clifton Hill - Alphington', 'Alphington - Fairfield']"
+"5, 10",2,9,3015,-0.833774736263804,12,230.0,0.3169774288518155,6.431533009063396,"['Altona North', 'Newport']"
+"5, 10",3,10,3015,-1.0370861748404874,13,206.66666666666666,0.3169774288518155,6.120662353036936,"['Altona North', 'Newport']"
+"5, 10",4,11,3032,-1.0236769472048353,10,205.625,0.31917211328976036,7.725243600547318,"['Flemington', 'Maribyrnong', 'Ascot Vale']"
+"5, 10",5,12,3032,-1.1946763892934384,4,186.0,0.31917211328976036,8.368540922467993,"['Flemington', 'Maribyrnong', 'Ascot Vale']"
+"10, 15",1,13,3145,0.44945092928298797,20,320.0,0.3368220742150333,10.409352150180686,"['Caulfield - North', 'Malvern East', 'Malvern - Glen Iris']"
+"10, 15",2,14,3018,-0.5139851101155166,6,218.75,0.3716129032258065,11.003649493130874,"['Altona', 'Altona Meadows']"
+"10, 15",3,15,3084,-1.0371022870251698,18,199.16666666666666,0.32894292468760555,14.66659361223221,"['Ivanhoe East - Eaglemont', 'Viewbank - Yallambie', 'Heidelberg - Rosanna']"
+"10, 15",4,16,3040,-1.2709779997136452,4,180.0,0.3279751101892663,10.77567716956214,"['Niddrie - Essendon West', 'Essendon - East', 'Essendon (West) - Aberfeldie']"
+"10, 15",5,17,3165,0.02675887955589934,5,220.0,0.4487568223165555,13.32204665300183,"['Bentleigh East - South', 'Bentleigh East - North']"
+"15, 20",1,18,3125,0.6684345335403005,15,280.0,0.46703806870937786,15.58998160283895,"['Burwood (Vic.)', 'Ashwood - Chadstone']"
+"15, 20",2,19,3043,-0.6542207790830934,9,190.0,0.38558786346396967,16.32119410004641,"['Gladstone Park - Westmeadows', 'Keilor', 'Gowanbrae', 'Tullamarine']"
+"15, 20",3,20,3028,-1.0999793086519245,17,150.0,0.37550835969272484,15.756983945344516,"['Laverton', 'Seabrook', 'Altona Meadows']"
+"15, 20",4,21,3028,-1.2587942181318827,6,133.75,0.37550835969272484,17.163749676297297,"['Laverton', 'Seabrook', 'Altona Meadows']"
+"15, 20",5,22,3030,-1.5265300677327467,6,130.0,0.3330269607843137,19.9534047882165,"['Manor Lakes - Quandong', 'Point Cook - North West', 'Point Cook - North East', 'Werribee - South', 'Werribee - East', 'Point Cook - South', 'Point Cook - East', 'Werribee - West']"
+"20, 35",1,23,3174,2.0699757434887394,8,290.0,0.444154715341156,24.46980986920213,"['Springvale', 'Keysborough - North', 'Noble Park North', 'Noble Park - East', 'Noble Park - West']"
+"20, 35",2,24,3135,-0.16275901602193227,4,190.0,0.3574938574938575,26.30177354302627,"['Ringwood East', 'Ringwood', 'Croydon South']"
+"20, 35",3,25,3024,-1.1634554402566262,27,136.66666666666666,0.34264859228362876,29.391456251687213,"['Rockbank - Mount Cottrell', 'Tarneit (West) - Mount Cottrell', 'Werribee - West', 'Wyndham Vale - North', 'Manor Lakes - Quandong', 'Wyndham Vale - South']"
+"20, 35",4,26,3024,-1.4480643082240992,69,120.0,0.34264859228362876,29.94874446279403,"['Rockbank - Mount Cottrell', 'Tarneit (West) - Mount Cottrell', 'Werribee - West', 'Wyndham Vale - North', 'Manor Lakes - Quandong', 'Wyndham Vale - South']"
+"20, 35",5,27,3029,-1.2704320427641016,8,118.0,0.37760220717331333,23.804596172125283,"['Werribee - East', 'Rockbank - Mount Cottrell', 'Truganina - South East', 'Tarneit - North', 'Truganina - North', 'Tarneit (West) - Mount Cottrell', 'Tarneit - South', 'Hoppers Crossing - North', 'Hoppers Crossing - South', 'Truganina - South West', 'Tarneit - Central']"
+"35, 50",1,28,3199,1.3399295579371011,17,320.0,0.3868471953578337,37.73141320584378,"['Seaford (Vic.)', 'Frankston North', 'Frankston South', 'Frankston']"
+"35, 50",2,29,3338,0.18024321418072983,5,175.0,0.40518162393162394,36.118169849236686,"['Wyndham Vale - North', 'Eynesbury - Exford', 'Cobblebank - Strathtulloh', 'Brookfield', 'Melton South - Weir Views']"
+"35, 50",3,30,3340,-0.8866850591889011,14,146.66666666666666,0.2981843575418994,49.07990492512749,"['Bacchus Marsh Surrounds', 'Lara', 'Bacchus Marsh', 'Eynesbury - Exford']"
+"35, 50",4,31,3340,-1.0807906101821727,13,125.0,0.2981843575418994,49.99763330608392,"['Bacchus Marsh Surrounds', 'Lara', 'Bacchus Marsh', 'Eynesbury - Exford']"
+"35, 50",5,32,3978,-0.9466426968387911,5,138.0,0.30051150895140666,47.67755388717139,"['Koo Wee Rup', 'Cranbourne East - South', 'Cranbourne South', 'Cranbourne East - North', 'Clyde North - North', 'Clyde North - South']"
+"50, 70",1,33,3216,0.2853207293044499,13,195.0,0.3690884167237834,67.68429506587435,"['Charlemont', 'Belmont', 'Grovedale - Mount Duneed', 'Highton']"
+"50, 70",2,34,3764,-0.10643641608686362,8,185.0,0.34285714285714286,61.76987975143389,"['Romsey', 'Kilmore - Broadford', 'Seymour Surrounds']"
+"50, 70",3,35,3764,-0.8480303541198724,7,133.33333333333334,0.34285714285714286,60.049908978177356,"['Romsey', 'Kilmore - Broadford', 'Seymour Surrounds']"
+"50, 70",4,36,3220,-1.2968141578125714,7,125.0,0.3080714725816389,62.53549497531872,"['Geelong', 'Newtown (Vic.)']"
+"50, 70",5,37,3216,-1.193082669742,4,92.0,0.3690884167237834,67.49274495080878,"['Charlemont', 'Belmont', 'Grovedale - Mount Duneed', 'Highton']"
+"70, 100",1,38,3350,1.7337817163974156,7,280.0,0.3220463746779536,99.49432067789617,"['Buninyong', 'Sebastopol - Redan', 'Ballarat East - Warrenheip', 'Ballarat', 'Canadian - Mount Clear', 'Ballarat North - Invermay', 'Alfredton']"
+"70, 100",2,39,3820,-0.07148382445412133,5,180.0,0.3088235294117647,93.67977558536765,['Warragul']
+"70, 100",3,40,3241,-0.9608382855390765,5,140.0,0.2824858757062147,94.68192570508229,"['Colac Surrounds', 'Winchelsea', 'Lorne - Anglesea']"
+"70, 100",4,41,3820,-1.0065931977036755,12,125.0,0.3088235294117647,92.2149585211345,['Warragul']
+"100, 150",1,42,3840,0.964165843697259,6,235.0,0.29469548133595286,135.1617405330807,"['Morwell', 'Churchill']"
+"100, 150",2,43,3825,-0.6951815108427448,6,136.25,0.2641025641025641,121.27406717448763,"['Moe - Newborough', 'Maffra', 'Trafalgar (Vic.)', 'Yallourn North - Glengarry', 'Mount Baw Baw Region']"
+"100, 150",3,44,3825,-0.9206365223409072,9,120.0,0.2641025641025641,123.35232594042822,"['Moe - Newborough', 'Maffra', 'Trafalgar (Vic.)', 'Yallourn North - Glengarry', 'Mount Baw Baw Region']"
+"100, 150",4,45,3351,-0.9106114483782269,8,111.25,0.27800161160354553,104.88990849822983,"['Golden Plains - South', 'Moyne - East', 'Delacombe', 'Ararat Surrounds', 'Beaufort', 'Golden Plains - North', 'Smythes Creek']"
+"150, 200",1,46,3672,2.29273784277149,6,335.0,0.31150442477876106,170.46363280147776,['Benalla']
+"150, 200",2,47,3850,-0.054617520783193624,10,185.0,0.2986217457886677,188.3187491215745,"['Maffra', 'Sale', 'Longford - Loch Sport']"
+"150, 200",3,48,3377,-1.414733778642273,5,120.0,0.2782462057335582,188.65989923621584,"['Ararat', 'Stawell', 'Avoca', 'Ararat Surrounds']"
+"150, 200",4,49,3630,-0.43010451911964964,6,127.5,0.31630170316301703,168.22654088016387,"['Shepparton Surrounds - East', 'Shepparton - South East', 'Shepparton - North']"
+"200, 500",1,50,3690,2.9873430864924293,4,280.0,0.30685920577617326,257.09008441780475,"['Baranduda - Leneva', 'West Wodonga', 'Wodonga']"
+"200, 500",2,51,3305,-0.2478388530303373,6,162.5,0.2675474814203138,297.2455326334109,"['Portland', 'Glenelg (Vic.)']"
+"200, 500",3,52,3305,-1.0141454727460255,20,130.83333333333334,0.2675474814203138,298.1180413468498,"['Portland', 'Glenelg (Vic.)']"
+"200, 500",4,53,3677,-0.8166040226712138,5,123.75,0.30456852791878175,204.13274279126856,"['Wangaratta Surrounds', 'Wangaratta']"

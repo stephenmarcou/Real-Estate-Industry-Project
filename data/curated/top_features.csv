@@ -1,34 +1,36 @@
 feature,weight
-beds,424.0
-distance primary school,395.0
-distance train station,297.0
-distance secondary school,289.0
-distance to closest hospital,263.0
-distance university campus,243.0
-parking,198.0
-baths,174.0
-predicted median equivalised total household income (weekly) ($) 2023,165.0
-closest_cc_dist,164.0
-predicted average family size (no. of persons) 2023,157.0
-predicted median weekly household rental payment ($) 2023,151.0
-dist_to_melb,136.0
-predicted employment ratio 2023,117.0
-offence count 2023,86.0
-predicted estimated resident population (no.) 2023,64.0
-property type_Apartment / Unit / Flat,49.0
-predicted total dwellings (no.) 2023,38.0
-property type_Acreage / Semi-Rural,24.0
-property type_House,22.0
-property type_Townhouse,22.0
-is closest school good,17.0
-property type_Studio,15.0
-closest_city_centre_Cranbourne,13.0
-closest_city_centre_Bendigo,8.0
-closest_city_centre_Ballarat,8.0
-coastal,8.0
-property type_New Apartments / Off the Plan,6.0
-closest_city_centre_Morwell,4.0
+distance primary school,566.0
+beds,525.0
+distance secondary school,431.0
+distance train station,402.0
+distance university campus,371.0
+distance to closest hospital,367.0
+parking,280.0
+baths,234.0
+predicted median equivalised total household income (weekly) ($) 2023,207.0
+predicted median weekly household rental payment ($) 2023,197.0
+closest_cc_dist,187.0
+predicted average family size (no. of persons) 2023,185.0
+dist_to_melb,169.0
+predicted employment ratio 2023,140.0
+offence count 2023,125.0
+predicted estimated resident population (no.) 2023,90.0
+property type_Apartment / Unit / Flat,60.0
+predicted total dwellings (no.) 2023,59.0
+property type_House,31.0
+property type_Townhouse,29.0
+property type_Acreage / Semi-Rural,27.0
+is closest school good,23.0
+closest_city_centre_Cranbourne,18.0
+property type_Studio,17.0
+coastal,11.0
+property type_New Apartments / Off the Plan,10.0
+closest_city_centre_Ballarat,10.0
+closest_city_centre_Bendigo,9.0
+closest_city_centre_Morwell,5.0
+property type_Semi-Detached,5.0
+closest_city_centre_Horsham,4.0
 closest_city_centre_Warrnambool,3.0
-property type_Semi-Detached,1.0
+closest_city_centre_Sale,2.0
 city_centre,1.0
-closest_city_centre_Horsham,1.0
+closest_city_centre_Shepparton,1.0

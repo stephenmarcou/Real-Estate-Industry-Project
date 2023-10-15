@@ -53,6 +53,8 @@ and saves the each year's info into the `data/curated` directory
 1. `distance_school_houses.ipynb`: this notebook calculates the distance from all properties to closest primary and secondary school, and also to closest university campus. It merges these distance metrics with the property data and is saved into `data/curated/rental_data_distance_uni_school_sf.csv`
 2. `distance_hospital_houses.ipynb`: this notebook calculates the distance from all properties to closest hospital. It merges this distance metric with the output csv from last step and is saved into `data/curated/rental_data_distance_sf.csv`
 3. `merge_supermarket_and_town_data.py`: the python script merges the data from the supermarket dataframe and the town dataframe with the rental data and saves it into `data/curated/rental_data_town_join.csv`
+4. `merge_rental_data.ipynb`: this notebook merges all features (both internal and external) to a single dataframe and saves into `data/curated/merged_data.csv` 
+   
 
 number. `join_crime_realestate.ipynb`: this notebook will join the crime data with the property data, saving the data to `data/curated` directory.
 
@@ -62,6 +64,10 @@ Visit the `notebooks` directory, run the following notebooks to perform the eval
 1. `affordability.ipynb`: runs the affordability model on the dataset outputing the most affordable suburbs into `data/curated` directory.
 2. `liveability_analysis.ipynb`: this notebook runs the liveability models on the datasets, creating many rankings and geospatial plots that are used in the presentation.
 3. `dist_cc_geo.ipynb`: this notebook creates some visualisations to do with city centres, in order to help us determine if we are on the right track
+4. `q1_modelling.ipynb`: this notebook runs and anlayses the XGBoost model that predicts rent prices. It identifies the most important features to predict rent prices. It saves the csv file used for modelling into `data/curated/data_XGBoost_before_onehotencode.csv`. The most important features are saved into `data/curated/top_features.csv` 
+5. `income_school_geospatial.ipynb`: this notebook creates folium map of the average household income of SA2 areas combined with markers of the top 150 VCE schools. The map is saved into the `plots/income_school_geo.html`
+6. `property_school_geo.ipynb`: this notebook creates two folium maps, one for the log average rental price per bed for houses in SA2 areas combined with markers of the top 150 VCE schools and the other one for the log average rental price per bed for apartment units in SA2 areas combined with markers of the top 150 VCE schools. The resepective maps are saved into the `plots/school_house_rentprice_map.html` and `plots/school_unit_rentprice_map.html`
+
 
 For the postcode data 
 1. `trial_projection_q2.ipynb`: this notebook uses the average growth rate between census data to predict the census data for 2026 for each SA2 district, and outputs it to `data/curated` folder as `suburb_info_2026.csv`

@@ -25,53 +25,39 @@ go to the `crime_data_scripts` directory and run the files in the following orde
 8. `shapefile_preprocess.py`: preprocesses the SA2 shapefile to geojson and converts postcode_to_SA2 excel file to csv and saves into respectively the `data/curated/geojson` directory and `data/curated/sa2_to_postcode` directory.
 9.  `school_data_download.py`: downloads all victorian school location data and scrapes the 150 top VCE schools saving the data into `data/landing/school_data` 
 10. Manually download all victorian university locations from https://adp-access.aurin.org.au/dataset/aurin-aurin-national-education-dataset-universities-2018-na. Use Unimelb account to log in and save the csv into `data/landing/school_data`
-11. `school_data_preprocessing_raw.py`: preprocesses school and university data and saves into `data/raw/school_data`
-12. `school_data_preprocessing_curated.py`: curates the school and university data and saves into `data/curated/school_data`
-13. `hospital_data_download.py`: downloads the hospital data and saves into `data/landing/hospital_data`
-14. `hospital_data_raw_preprocessing.py`: preprocess the hospital data and saves into `data/raw/hospital_data`
-15. `hospital_data_raw_preprocessing.py`: curates the hospital data (including retrieving coordinates for the locations) saves into `data/curated/hospital_data`
+
+11. `type_of_towns_scripts/type_of_town.py`: downloads all data to do with towns and their promixity in Victoria
+12. `type_of_towns_scripts/preprocess_all_towns.py`: preprocesses the town, postcode and lat and long data such that one file is created, `data/raw/all_town_data.csv`
+13. Manually download all supermarket locations from https://www.yellowpages.com.au/vic/supermarkets-grocery-stores-20613-category-a1. Enter data into `data/landing/supermarket_raw_data.csv`
+
+14. `school_data_preprocessing_raw.py`: preprocesses school and university data and saves into `data/raw/school_data`
+15. `school_data_preprocessing_curated.py`: curates the school and university data and saves into `data/curated/school_data`
+16. `hospital_data_download.py`: downloads the hospital data and saves into `data/landing/hospital_data`
+17. `hospital_data_raw_preprocessing.py`: preprocess the hospital data and saves into `data/raw/hospital_data`
+18. `hospital_data_raw_preprocessing.py`: curates the hospital data (including retrieving coordinates for the locations) saves into `data/curated/hospital_data`
+
+19. `type_of_towns_scripts/create_town_dataframe.py`: curates all the town data and saves it in a clean dataframe in `data/curated`
+20. `supermarket_scripts/supermarket_curate.py`: curates the supermarket data into a dataframe saved into `data/curated`
 
 
+#### Put in all of your scripts you run to get the data
 
 
-
-##### Put in all of your scripts you run to get the data
-
-
-##### run the scripts or notebooks that merge all the data into a single dataframe.
+#### run the scripts or notebooks that merge all the data into a single dataframe.
 
 1. `distance_school_houses.ipynb`: this notebook calculates the distance from all properties to closest primary and secondary school, and also to closest university campus. It merges these distance metrics with the property data and is saved into `data/curated/rental_data_distance_uni_school_sf.csv`
 2. `distance_hospital_houses.ipynb`: this notebook calculates the distance from all properties to closest hospital. It merges this distance metric with the output csv from last step and is saved into `data/curated/rental_data_distance_sf.csv`
-
-
-
+3. `merge_supermarket_and_town_data.py`: the python script merges the data from the supermarket dataframe and the town dataframe with the rental data and saves it into `data/curated/rental_data_town_join.csv`
 
 number. `join_crime_realestate.ipynb`: this notebook will join the crime data with the property data, saving the data to `data/curated` directory.
-
-
-
-
 
 Having run all the scripts to download the data we move to analyse the data
 Visit the `notebooks` directory, run the following notebooks to perform the evaluation of the datasets.
 
-number. `affordability.ipynb`: runs the affordability model on the dataset outputing the most affordable suburbs into `data/curated` directory.
-
-
-
+1. `affordability.ipynb`: runs the affordability model on the dataset outputing the most affordable suburbs into `data/curated` directory.
+2. `liveability_analysis.ipynb`: this notebook runs the liveability models on the datasets, creating many rankings and geospatial plots that are used in the presentation.
+3. `dist_cc_geo.ipynb`: this notebook creates some visualisations to do with city centres, in order to help us determine if we are on the right track
 
 
 With all the predictions and models ran, navigate to `notebooks/summary_notebook.ipynb`
 It contains a summary and evaluates the models created to address the research goal.
-
-# type_of_towns_scripts/type_of_town.py: downloads all data to do with towns and their locations
-# type_of_towns_scripts/preprocess_all_towns.py: preprocesses the town, postcode and lat and long data such that one file, 'all_town_data.csv' is created in 'data/raw'
-# type_of_towns_scripts/create_town_dataframe.py: curates all the town data and saves it in a clean dataframe in 'data/curated'
-# supermarket_scripts/supermarket_curate.py: curates the supermarket data into a dataframe saved into 'data/curated'
-``
-# type_of_towns_scripts/merge_supermarket_and_town_data.py: merges the data from the supermarket dataframe and the town dataframe and saved into 'data/curated'
-
-# liveability_analysis.ipynb: this notebook runs the liveability models on the datasets, creating many rankings and geospatial plots that are used in the presentation
-
-# dist_cc_geo.ipynb: this notebook creates some visualisations to do with city centres, in order to help us determine if we are on the right track
-

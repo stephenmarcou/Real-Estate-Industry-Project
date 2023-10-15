@@ -40,6 +40,11 @@ go to the `crime_data_scripts` directory and run the files in the following orde
 20. `supermarket_scripts/supermarket_curate.py`: curates the supermarket data into a dataframe saved into `data/curated`
 
 
+21. `download_sa2_info.py`: downloads all the data for each SA2 district and saved into `data/landing/suburb_info`
+22. `postcode_shapefile_download.py`: downloads the postcode shapefiles and saves into the `data/landing` directory.
+23. `preprocess_sa2_info.py`: Gathers all the important information from each SA2 district from each census year since 2011,
+and saves the each year's info into the `data/curated` directory
+
 #### Put in all of your scripts you run to get the data
 
 
@@ -58,6 +63,13 @@ Visit the `notebooks` directory, run the following notebooks to perform the eval
 2. `liveability_analysis.ipynb`: this notebook runs the liveability models on the datasets, creating many rankings and geospatial plots that are used in the presentation.
 3. `dist_cc_geo.ipynb`: this notebook creates some visualisations to do with city centres, in order to help us determine if we are on the right track
 
+For the postcode data 
+1. `trial_projection_q2.ipynb`: this notebook uses the average growth rate between census data to predict the census data for 2026 for each SA2 district, and outputs it to `data/curated` folder as `suburb_info_2026.csv`
+2. `rental_sa2.ipynb`: this notebook adds the SA2 district and shapefile geometry attribute to each property as well as changes the SA2 data to postcode based data
+3. `trial_growth_rate.ipynb`: this notebook is intended for use to show the general linear trend in growth rates between 2011 and 2021 in census data
+4. `open_space.ipynb`: this notebook finds the distance to the closest park for each rental property and outputs the result to `data/curated` folder as `rental_data_closest_park.csv`
+5. `q2_modelling.ipynb`: this notebook used the XGBoost model created in `q1_modelling.ipynb` to predict the rental prices in 2026 and calculated the growth rate between the years.
+6. `predictions_geospatial.ipynb`: this notebook creates the map of the postcodes' growth rates that was calculated in `q2_modelling.ipynb`.
 
 With all the predictions and models ran, navigate to `notebooks/summary_notebook.ipynb`
 It contains a summary and evaluates the models created to address the research goal.

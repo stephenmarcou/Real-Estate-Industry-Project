@@ -64,3 +64,14 @@ number. `affordability.ipynb`: runs the affordability model on the dataset outpu
 With all the predictions and models ran, navigate to `notebooks/summary_notebook.ipynb`
 It contains a summary and evaluates the models created to address the research goal.
 
+# type_of_towns_scripts/type_of_town.py: downloads all data to do with towns and their locations
+# type_of_towns_scripts/preprocess_all_towns.py: preprocesses the town, postcode and lat and long data such that one file, 'all_town_data.csv' is created in 'data/raw'
+# type_of_towns_scripts/create_town_dataframe.py: curates all the town data and saves it in a clean dataframe in 'data/curated'
+# supermarket_scripts/supermarket_curate.py: curates the supermarket data into a dataframe saved into 'data/curated'
+``
+# type_of_towns_scripts/merge_supermarket_and_town_data.py: merges the data from the supermarket dataframe and the town dataframe and saved into 'data/curated'
+
+# liveability_analysis.ipynb: this notebook runs the liveability models on the datasets, creating many rankings and geospatial plots that are used in the presentation
+
+# dist_cc_geo.ipynb: this notebook creates some visualisations to do with city centres, in order to help us determine if we are on the right track
+

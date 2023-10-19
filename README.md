@@ -39,7 +39,7 @@ Enter data into 'data/landing/postcode_polygon_data'
 19. `hospital_data_download.py`: downloads the hospital data and saves into `data/landing/hospital_data`
 20. `hospital_data_raw_preprocessing.py`: preprocess the hospital data and saves into `data/raw/hospital_data`
 21. `hospital_data_raw_preprocessing.py`: curates the hospital data (including retrieving coordinates for the locations) saves into `data/curated/hospital_data`
-22. 'ptv_data_preprocess_raw.py': preprocesses PTV data and saves into 'data/raw/ptv'
+22. `ptv_data_preprocess_raw.py`: preprocesses PTV data and saves into `data/raw/ptv`
 
 23. `type_of_towns_scripts/create_town_dataframe.py`: curates all the town data and saves it in a clean dataframe in `data/curated`
 24. `supermarket_scripts/supermarket_curate.py`: curates the supermarket data into a dataframe saved into `data/curated`

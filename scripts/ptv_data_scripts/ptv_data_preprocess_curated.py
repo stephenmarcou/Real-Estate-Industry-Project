@@ -1,9 +1,9 @@
 import pandas as pd
 import math
 
-rent_data = pd.read_csv("../data/curated/rental_data.csv")
-metro_stations_data = pd.read_csv("../data/curated/PTV/stations_with_postcodes.csv")
-regional_stations_data = pd.read_csv("../data/curated/PTV/stations_with_postcodes.csv")
+rent_data = pd.read_csv("../../data/raw/rental_data.csv")
+metro_stations_data = pd.read_csv("../../data/raw/PTV/stations_with_postcodes.csv")
+regional_stations_data = pd.read_csv("../../data/raw/PTV/stations_with_postcodes.csv")
 
 stations_data = metro_stations_data.append(regional_stations_data, ignore_index=True)
 

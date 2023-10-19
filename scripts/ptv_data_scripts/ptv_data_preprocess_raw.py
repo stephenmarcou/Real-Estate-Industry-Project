@@ -37,7 +37,7 @@ stations_with_postcodes = stations_with_postcodes.drop(columns=["index_right"])
 regional_stations_with_postcodes = regional_stations_with_postcodes.drop(columns=["index_right"])
 
 # Define the file paths for saving the GeoDataFrames in the data folder
-data_folder = '../../data/curated/ptv/'
+data_folder = '../../data/raw/ptv/'
 
 # Save the GeoDataFrames to files in the data folder
 gdf_train_station.to_file(data_folder + 'PTV_METRO_TRAIN_STATION.geojson', driver='GeoJSON')

@@ -1,0 +1,417 @@
+postcode,baseline,town
+3002,100.0,['East Melbourne']
+3054,97.28199690127741,"['Carlton North', 'Princes Hill']"
+3065,95.50015927147888,['Fitzroy']
+3004,94.0226624786413,['Melbourne']
+3141,87.6135897739172,['South Yarra']
+3000,86.09781205247721,['Melbourne']
+3103,84.71382823566465,"['Balwyn', 'Balwyn East', 'Deepdene']"
+3070,83.3921817693881,"['Northcote South', 'Northcote']"
+3181,83.24938496366872,"['Prahran', 'Prahran East', 'Windsor']"
+3051,83.19318695697834,"['North Melbourne', 'Hotham Hill']"
+3057,83.02392229521278,['Brunswick East']
+3052,82.10200729707411,"['Parkville', 'Melbourne University']"
+3068,81.74584712392542,"['Fitzroy North', 'Clifton Hill']"
+3186,81.71848421846266,"['Brighton', 'Brighton North', 'Dendy']"
+3185,81.37921042174538,"['Elsternwick', 'Ripponlea', 'Gardenvale']"
+3006,81.23424468002457,['Southbank']
+3003,80.16751325690491,['West Melbourne']
+3206,79.78216586442848,"['Albert Park', 'Middle Park']"
+3078,79.24623879954471,"['Alphington', 'Fairfield']"
+3101,78.91982756531574,['Kew']
+3056,78.90392005947986,['Brunswick']
+3147,78.30574411907743,"['Ashwood', 'Ashburton']"
+3067,78.07050499228234,['Abbotsford']
+3071,78.03312624847283,['Thornbury']
+3123,77.65257381885507,"['Auburn', 'Hawthorn East']"
+3121,77.53089717754442,"['Cremorne', 'Richmond', 'Richmond North', 'Richmond South', 'Richmond East', 'Burnley', 'Burnley North']"
+3142,77.40702375854829,"['Toorak', 'Hawksburn']"
+3066,77.23179099752312,"['Collingwood', 'Collingwood North']"
+3053,76.54672012517561,"['Carlton', 'Carlton South']"
+3126,76.44217176387775,"['Canterbury', 'Camberwell East']"
+3128,76.3666759015137,"['Box Hill South', 'Wattle Park', 'Box Hill', 'Houston']"
+3144,75.94792255552899,"['Kooyong', 'Malvern', 'Malvern North']"
+3016,75.91037316281968,"['Williamstown North', 'Williamstown']"
+3104,75.81967580787479,['Balwyn North']
+3102,75.00971553023099,['Kew East']
+3205,74.96441898296186,"['South Melbourne', 'South Melbourne Dc']"
+3183,74.67904081248378,"['St Kilda East', 'Balaclava']"
+3008,74.26416368103058,['Docklands']
+3084,73.9257291401139,"['Viewbank', 'Rosanna', 'Eaglemont', 'Heidelberg', 'Banyule']"
+3122,73.9157835489855,"['Glenferrie South', 'Auburn South', 'Hawthorn', 'Hawthorn West', 'Hawthorn North']"
+3081,73.50315003420513,"['Heidelberg Heights', 'Heidelberg West', 'Heidelberg Rgh', 'Bellfield']"
+3129,73.28029160912928,"['Mont Albert North', 'Box Hill North', 'Kerrimuir']"
+3011,72.64068833693686,"['Seddon West', 'Seddon', 'Footscray']"
+3148,72.5629113676367,"['Holmesglen', 'Chadstone', 'Chadstone Centre', 'Jordanville']"
+3079,72.21690310004924,"['Ivanhoe East', 'Ivanhoe', 'Ivanhoe North']"
+3039,72.1759515178823,['Moonee Ponds']
+3031,71.68255288517784,"['Flemington', 'Kensington']"
+3034,71.50090697142693,['Avondale Heights']
+3143,71.09244481552885,"['Armadale', 'Armadale North']"
+3162,70.70439476691313,"['Caulfield South', 'Caulfield', 'Hopetoun Gardens']"
+3055,70.38388268925276,"['Brunswick West', 'Moreland West']"
+3161,70.28686499718103,"['Caulfield North', 'Caulfield Junction']"
+3191,69.92527512168432,['Sandringham']
+3204,69.754583418089,"['Bentleigh', 'Ormond', 'Mckinnon']"
+3187,69.3520617880101,"['Brighton East', 'North Road']"
+3165,69.18919637972306,"['Bentleigh East', 'Coatesville']"
+3133,69.01586531334358,"['Vermont South', 'Vermont']"
+3127,68.18090305034006,"['Surrey Hills', 'Mont Albert', 'Surrey Hills North']"
+3124,68.13227237194609,"['Hartwell', 'Camberwell', 'Camberwell South', 'Camberwell West', 'Middle Camberwell', 'Camberwell North']"
+3109,67.67145779557856,"['Doncaster East', 'Doncaster Heights', 'Tunstall Square Po']"
+3013,67.63067580233009,"['Yarraville', 'Yarraville West']"
+3015,67.611266540921,"['Newport', 'South Kingsville', 'Spotswood']"
+3087,67.53126991184969,"['Watsonia', 'Watsonia North']"
+3135,67.28979017548504,"['Ringwood East', 'Heathmont', 'Bedford Road']"
+3188,67.14226760378268,"['Hampton', 'Hampton East', 'Hampton North']"
+3146,66.8724620066229,"['Glen Iris', 'Tooronga']"
+3193,66.71264414938348,"['Beaumaris', 'Black Rock', 'Cromer', 'Black Rock North']"
+3125,66.63333343813547,"['Bennettswood', 'Burwood', 'Surrey Hills South']"
+3033,66.54635353203454,['Keilor East']
+3044,66.37376598746184,"['Pascoe Vale', 'Pascoe Vale South']"
+3166,66.32552035164947,"['Oakleigh East', 'Huntingdale', 'Hughesdale', 'Oakleigh']"
+3149,66.32491993815103,"['Mount Waverley', 'Syndal', 'Pinewood']"
+3184,66.19770910782282,"['Brighton Road', 'Elwood']"
+3202,65.7917860364255,['Heatherton']
+3189,65.35497723177969,"['Moorabbin', 'Wishart', 'Moorabbin East']"
+3145,64.9887057660511,"['Caulfield East', 'Malvern East', 'Darling', 'Central Park']"
+3111,64.34516552589217,['Donvale']
+3018,63.980175124134384,"['Seaholme', 'Altona']"
+3134,63.83476193102804,"['Warrandyte South', 'Ringwood North', 'Warranwood', 'Ringwood']"
+3115,63.69806371383746,['Wonga Park']
+3163,63.686339548127926,"['Carnegie', 'Glen Huntly', 'Murrumbeena']"
+3040,63.137314328830854,"['Essendon West', 'Essendon', 'Aberfeldie']"
+3182,62.75577591735939,"['St Kilda West', 'St Kilda', 'St Kilda South']"
+3132,62.50181888384205,"['Mitcham', 'Mitcham North', 'Rangeview']"
+3190,62.15381855338878,['Highett']
+3806,62.05565086893931,"['Berwick', 'Harkaway']"
+3085,61.936633308623065,"['Yallambie', 'Macleod', 'Macleod West']"
+3167,61.877955673933435,['Oakleigh South']
+3036,61.72875635722345,"['Keilor', 'Keilor North']"
+3207,61.70358482721927,"['Port Melbourne', 'Garden City']"
+3150,61.618570968430184,"['Glen Waverley', 'Wheelers Hill']"
+3131,61.563827986806636,"['Forest Hill', 'Nunawading', 'Brentford Square']"
+3041,61.26438866938714,"['Strathmore', 'Strathmore Heights', 'Essendon North']"
+3032,61.20915446191933,"['Ascot Vale', 'Maribyrnong', 'Travancore']"
+3160,61.11738083701734,"['Tecoma', 'Belgrave South', 'Belgrave', 'Belgrave Heights']"
+3105,61.09025328459271,['Bulleen']
+3194,60.99847163911877,"['Mentone', 'Moorabbin Airport', 'Mentone East']"
+3022,60.49900462812317,"['Ardeer', 'Deer Park East']"
+3072,60.39450313519742,"['Preston', 'Preston West', 'Preston Lower', 'Preston South', 'Northland Centre', 'Regent West']"
+3058,60.23613358858031,"['Coburg North', 'Merlynston', 'Coburg', 'Moreland']"
+3060,59.9890705129077,['Fawkner']
+3152,59.98431951542113,"['Studfield', 'Knox City Centre', 'Wantirna', 'Wantirna South']"
+3094,59.78435628759902,['Montmorency']
+3180,59.76182816027338,['Knoxfield']
+3130,59.664818138284566,"['Blackburn', 'Blackburn South', 'Blackburn North', 'Laburnum']"
+3136,58.9298776867743,"['Croydon South', 'Croydon Hills', 'Croydon North', 'Croydon']"
+3083,58.69985069209596,"['Bundoora', 'Kingsbury']"
+3107,58.38237261268603,['Templestowe Lower']
+3042,58.3820248308316,"['Keilor Park', 'Niddrie', 'Niddrie North', 'Airport West']"
+3192,57.91003882284657,"['Cheltenham', 'Southland Centre', 'Cheltenham East']"
+3106,57.794015942382245,['Templestowe']
+3082,57.546794912851254,['Mill Park']
+3116,57.5463063287799,['Chirnside Park']
+3019,57.168781568325976,['Braybrook']
+3075,57.097778050181056,['Lalor']
+3158,56.90797245239377,['Upwey']
+3220,56.58222549451701,"['Geelong', 'South Geelong', 'Newtown']"
+3025,56.33927355122031,['Altona North']
+3151,56.29064740758605,"['Burwood East', 'Burwood Heights']"
+3960,56.29037258218551,"['Foster', 'Foster North', 'Wonga', 'Yanakie']"
+3179,56.282978055087334,['Scoresby']
+3140,55.89849540527323,['Lilydale']
+3153,55.782765798124984,"['Bayswater', 'Bayswater North']"
+3750,55.75538093257674,['Wollert']
+3266,55.735784200747545,"['Cobden', 'Simpson', 'Elingamite North', 'Elingamite', 'Jancourt East', 'Jancourt']"
+3260,55.65469310292876,"['South Purrumbete', 'Camperdown', 'Pomborneit', 'Pomborneit North']"
+3059,55.257180346203185,['Greenvale']
+3168,54.94896370680545,"['Clayton', 'Notting Hill']"
+3170,54.85202055624247,"['Waverley Gardens', 'Mulgrave']"
+3093,54.77217826635017,['Lower Plenty']
+3155,54.668938347999784,['Boronia']
+3169,54.58374904555065,"['Clarinda', 'Clayton South']"
+3200,54.412342934878964,"['Frankston North', 'Pines Forest']"
+3108,54.34357537425692,['Doncaster']
+3807,54.22669365998685,"['Guys Hill', 'Beaconsfield']"
+3930,53.87235747377858,"['Mount Eliza', 'Kunyung']"
+3089,53.74259555126862,['Diamond Creek']
+3088,53.72003460292454,"['Briar Hill', 'St Helena', 'Saint Helena', 'Greensborough']"
+3113,53.179158093049935,"['North Warrandyte', 'Warrandyte']"
+3915,52.84190803958672,"['Hastings', 'Tuerong']"
+3429,52.81209553771055,['Sunbury']
+3809,52.6220241904056,"['Officer', 'Officer South']"
+3980,52.52325594679691,"['Tooradin', 'Warneet', 'Blind Bight']"
+3074,52.47357030074448,['Thomastown']
+3154,52.367381706860904,['The Basin']
+3026,52.11094097264558,['Laverton North']
+3095,52.076521967396,"['Eltham', 'Eltham North', 'Research']"
+3138,52.04406942116157,['Mooroolbark']
+3012,51.856499230838836,"['Maidstone', 'West Footscray', 'Kingsville', 'Brooklyn']"
+3049,51.67449104853875,"['Attwood', 'Westmeadows']"
+3178,51.63721398760001,['Rowville']
+3046,51.504682726540466,"['Oak Park', 'Glenroy', 'Hadfield']"
+3804,51.477627187368896,"['Narre Warren North', 'Narre Warren East']"
+3073,51.468402743579716,"['Reservoir', 'Keon Park']"
+3198,51.450189742441765,"['Seaford', 'Belvedere Park']"
+3156,51.00293202257311,"['Mountain Gate', 'Ferntree Gully', 'Lysterfield', 'Upper Ferntree Gully']"
+3357,50.80134041976851,['Buninyong']
+3038,50.726904244783924,"['Keilor Downs', 'Keilor Lodge', 'Taylors Lakes']"
+3561,50.669817321448235,"['Nanneella', 'Rochester', 'Ballendella']"
+3172,50.306936770075815,"['Dingley Village', 'Springvale South']"
+3137,50.15210934755879,"['Kilsyth', 'Kilsyth South']"
+3076,50.110593010242475,"['Epping', 'Epping Dc']"
+3342,49.53712315159663,"['Mount Wallace', 'Ballan']"
+3195,49.3105612507508,"['Parkdale', 'Aspendale', 'Braeside', 'Aspendale Gardens', 'Waterways', 'Mordialloc']"
+3931,49.2744320880685,['Mornington']
+3196,49.151638806334944,"['Edithvale', 'Chelsea', 'Bonbeach', 'Chelsea Heights']"
+3173,48.906853632710686,['Keysborough']
+3978,48.8895338077638,"['Clyde North', 'Cardinia', 'Clyde']"
+3199,48.62975878317612,"['Karingal Centre', 'Karingal', 'Frankston South', 'Frankston', 'Frankston Heights', 'Frankston East']"
+3460,48.502543284460906,['Daylesford']
+3912,48.151633943141924,"['Pearcedale', 'Somerville']"
+3217,48.09698703606174,"['Mount Duneed', 'Freshwater Creek', 'Armstrong Creek', 'Charlemont']"
+3351,48.03942370865479,"['Cape Clear', 'Staffordshire Reef', 'Illabarook', 'Ross Creek', 'Piggoreet', 'Rokewood Junction', 'Berringa', 'Snake Valley', 'Streatham', 'Lake Bolac', 'Scarsdale', 'Haddon', 'Smythesdale', 'Carngham']"
+3043,47.997650004432764,"['Gladstone Park', 'Gowanbrae', 'Tullamarine']"
+3775,47.64607962322614,"['Dixons Creek', 'Yarra Glen', 'Christmas Hills', 'Steels Creek']"
+3197,47.25272458674633,"['Carrum', 'Patterson Lakes']"
+3786,47.21052170362662,['Ferny Creek']
+3091,46.939586921387495,['Yarrambat']
+3218,46.90481621557289,"['Fyansford', 'Geelong West', 'Manifold Heights', 'Herne Hill']"
+3777,46.87423339497882,"['Toolangi', 'Badger Creek', 'Healesville', 'Chum Creek']"
+3201,46.62297773834641,['Carrum Downs']
+3765,46.60595055214879,['Montrose']
+3047,46.19634757633443,"['Jacana', 'Dallas', 'Broadmeadows']"
+3783,46.035982714050256,['Gembrook']
+3219,45.81341242342989,"['St Albans Park', 'Thomson', 'East Geelong', 'Breakwater', 'Whittington', 'Newcomb']"
+3028,45.71059319773814,"['Seabrook', 'Laverton', 'Altona Meadows']"
+3177,45.665171986693075,"['Doveton', 'Eumemmerring']"
+3764,45.65011297397911,"['Kilmore', 'Kilmore East']"
+3752,45.59230704757044,['South Morang']
+3975,45.58424052009724,"['Lyndhurst', 'Lynbrook']"
+3788,45.55375695967326,['Olinda']
+3926,45.527989147806885,"['Merricks North', 'Balnarring', 'Merricks Beach', 'Balnarring Beach']"
+3171,45.489828408950665,"['Springvale', 'Sandown Village']"
+3280,45.274876622245685,"['Warrnambool', 'Dennington']"
+3756,44.6790987294938,"['Darraweit Guim', 'Wallan', 'Upper Plenty']"
+3550,44.41140317365794,"['Bendigo', 'Strathdale', 'East Bendigo', 'White Hills', 'Ironbark', 'North Bendigo', 'West Bendigo', 'Bendigo South', 'Sandhurst East', 'Quarry Hill', 'Kennington', 'Spring Gully', 'Flora Hill', 'Long Gully']"
+3585,44.39734132501765,"['Swan Hill', 'Swan Hill West', 'Castle Donnington']"
+3024,44.33317532443677,"['Wyndham Vale', 'Mount Cottrell']"
+3754,44.29571977586408,"['Doreen', 'Mernda']"
+3722,44.181905458188616,['Mansfield']
+3037,44.16469059721071,"['Sydenham', 'Delahey', 'Taylors Hill', 'Hillside']"
+3753,44.04897883069265,['Beveridge']
+3630,44.00028230392565,"['Shepparton', 'Caniambo', 'Shepparton South']"
+3842,43.949930932280154,['Churchill']
+3461,43.91916565931635,"['Leonards Hill', 'Yandoit', 'Yandoit Hills', 'Bullarto', 'Bullarto South', 'Eganstown', 'Drummond', 'Lyonville']"
+3796,43.868259833509356,['Mount Evelyn']
+3451,43.69111756575934,"['Campbells Creek', 'Yapeen', 'Chewton', 'Chewton Bushlands', 'Fryerstown', 'Guildford', 'Golden Point', 'Tarilta', 'Muckleford', 'Vaughan', 'Barkers Creek']"
+3802,43.5388109299013,['Endeavour Hills']
+3224,43.53045534247531,"['Leopold', 'Moolap']"
+3910,43.466662214009055,['Langwarrin']
+3938,43.39885731536278,['Mccrae']
+3335,43.38431600536847,['Rockbank']
+3995,43.16475545852086,"['Cape Paterson', 'Wonthaggi', 'North Wonthaggi', 'Archies Creek', 'Kilcunda', 'Harmers Haven']"
+3216,43.14423740150339,"['Grovedale', 'Grovedale East', 'Mount Duneed', 'Waurn Ponds', 'Marshall', 'Highton', 'Freshwater Creek', 'Wandana Heights', 'Belmont']"
+3820,43.07166588407697,['Warragul']
+3241,42.659005495279445,"['Winchelsea', 'Winchelsea South']"
+3929,42.61873430642892,['Flinders']
+3345,42.540525957050626,['Gordon']
+3714,42.44012152467296,['Taggerty']
+3939,42.27919661951052,"['Rosebud', 'Rosebud Plaza', 'Fingal']"
+3918,42.266297993984054,['Bittern']
+3781,42.19760137733892,['Cockatoo']
+3355,42.03295827476317,"['Wendouree', 'Wendouree Village', 'Lake Gardens']"
+3438,41.915463570935934,['New Gisborne']
+3940,41.59093458195396,['Rosebud West']
+3690,41.527312298149056,"['Wodonga', 'West Wodonga']"
+3672,41.42065994080997,['Benalla']
+3936,41.13418814625705,"['Safety Beach', 'Arthurs Seat', 'Dromana']"
+3677,40.91691841558449,['Wangaratta']
+3749,40.80721781879199,['Yackandandah']
+3976,40.78001519872908,['Hampton Park']
+3751,40.538162579244364,['Woodstock']
+3222,40.48384802015875,"['Drysdale', 'Clifton Springs', 'Curlewis', 'Wallington']"
+3356,40.403413380408075,"['Sebastopol', 'Delacombe']"
+3757,40.29814554264357,"['Eden Park', 'Whittlesea']"
+3174,40.207987100897405,"['Noble Park', 'Noble Park North']"
+3962,40.1470267187352,"['Toora', 'Toora North']"
+3215,40.11137518084341,"['Bell Park', 'North Geelong', 'Geelong North', 'Hamlyn Heights', 'Bell Post Hill']"
+3813,40.111155323254614,"['Tynong', 'Tynong North']"
+3363,40.07167772716615,"['Dean', 'Creswick North', 'Creswick']"
+3450,40.060383716039944,['Castlemaine']
+3787,40.01580640136636,"['Sassafras', 'Sassafras Gully']"
+3212,39.80363608941009,"['Avalon', 'Lara']"
+3911,39.700870785876596,"['Langwarrin South', 'Baxter']"
+3337,39.6659845126968,"['Melton West', 'Melton', 'Toolern Vale', 'Kurunjang']"
+3934,39.599647632992834,['Mount Martha']
+3805,39.39898827068046,"['Narre Warren', 'Fountain Gate', 'Narre Warren South']"
+3027,39.255390514020405,['Williams Landing']
+3300,39.21627737971812,"['Byaduk North', 'Hamilton']"
+3803,39.132380622312205,['Hallam']
+3328,39.1174546662845,['Teesdale']
+3048,38.98037206557057,"['Coolaroo', 'Meadow Heights']"
+3213,38.57253965032336,"['Lovely Banks', 'Anakie', 'Batesford']"
+3869,38.515167716677745,"['Yinnar', 'Yinnar South']"
+3937,38.48112141810216,"['Red Hill South', 'Red Hill']"
+3437,38.44562501916671,['Bullengarook']
+3658,38.41116374746611,"['Broadford', 'Reedy Creek']"
+3418,38.335374958833505,"['Netherby', 'Yanac', 'Broughton', 'Nhill', 'Kiata', 'Gerang Gerung', 'Lorquon']"
+3691,38.05957026039592,"['Allans Flat', 'Bandiana', 'Baranduda', 'Tangambalanga', 'Bonegilla', 'Kiewa', 'Talgarno', 'Osbornes Flat', 'Barnawartha North', 'Bethanga', 'Bellbridge', 'Dederang']"
+3792,37.97616756437915,['The Patch']
+3338,37.96669960191721,"['Eynesbury', 'Melton South', 'Brookfield']"
+3414,37.76700863650368,"['Tarranyurk', 'Dimboola', 'Antwerp']"
+3226,37.7669331446607,['Ocean Grove']
+3061,37.28779051151466,['Campbellfield']
+3284,37.14860709564316,"['Port Fairy', 'Orford']"
+3850,37.03096716650278,['Sale']
+3631,36.885312806356794,"['Lemnos', 'Grahamvale', 'Tamleugh West', 'Shepparton North', 'Shepparton East', 'Orrvale', 'Kialla', 'Arcadia', 'Arcadia South', 'Pine Lodge']"
+3944,36.798699084763335,['Portsea']
+3340,36.75591891972762,"['Coimadai', 'Rowsley', 'Darley', 'Balliang', 'Balliang East', 'Parwan', 'Hopetoun Park', 'Maddingley', 'Bacchus Marsh']"
+3953,36.6939470971011,"['Leongatha', 'Leongatha South', 'Leongatha North', 'Nerrena']"
+3555,36.60357112941034,"['Kangaroo Flat', 'Golden Square']"
+3831,36.410871222999816,['Neerim South']
+3551,36.39041853311416,"['Tarnagulla', 'Woodstock On Loddon', 'Bendigo Forward', 'Newbridge', 'Strathfieldsaye', 'Axedale', 'Mandurang', 'Mandurang South', 'Toolleen', 'Waanyarra', 'Llanelly', 'Huntly', 'Maiden Gully', 'Epsom', 'Junortoun', 'Ascot', 'Huntly North']"
+3228,36.333997407358815,['Torquay']
+3870,36.28279775629044,"['Boolarra', 'Boolarra South', 'Budgeree']"
+3434,36.07738222947751,['Romsey']
+3913,36.00380825654129,['Tyabb']
+3021,35.96548024915897,"['St Albans', 'Kealba', 'Kings Park', 'Albanvale']"
+3400,35.83839484468666,['Horsham']
+3950,35.782583897576586,"['Kardella South', 'Korumburra', 'Korumburra South', 'Strzelecki']"
+3227,35.72570182353158,"['Connewarre', 'Breamlea', 'Barwon Heads']"
+3823,35.618739001649125,"['Yarragon', 'Yarragon South', 'Allambee']"
+3992,35.55917461808144,"['Dalyston', 'Blackwood Forest']"
+3435,35.42703728966362,['Lancefield']
+3782,35.15389462908222,"['Clematis', 'Macclesfield', 'Avonsleigh', 'Emerald']"
+3350,35.02835409831244,"['Ballarat', 'Soldiers Hill', 'Lake Wendouree', 'Ballarat North', 'Nerrina', 'Canadian', 'Black Hill', 'Redan', 'Golden Point', 'Mount Clear', 'Mount Pleasant', 'Newington', 'Ballarat East', 'Eureka', 'Alfredton', 'Brown Hill', 'Mount Helen', 'Lucas']"
+3556,34.95768075851806,"['Woodvale', 'California Gully', 'Myers Flat', 'Sailors Gully', 'Jackass Flat', 'Eaglehawk', 'Sebastian', 'Eaglehawk North']"
+3810,34.94360708260082,"['Pakenham Upper', 'Pakenham', 'Pakenham South']"
+3321,34.86811935470252,['Inverleigh']
+3393,34.77869897504842,['Warracknabeal']
+3916,34.75831567027632,"['Shoreham', 'Merricks']"
+3277,34.65338014566785,['Allansford']
+3264,34.443397836099486,['Terang']
+3858,34.40684281889964,['Heyfield']
+3818,34.37386194266597,"['Drouin', 'Drouin West', 'Drouin South', 'Drouin East', 'Jindivick']"
+3568,34.346889219676896,"['Mcmillans', 'Macorna North', 'Mincha West', 'Gannawarra']"
+3352,34.02232773226667,"['Navigators', 'Clarendon', 'Leigh Creek', 'Lexton', 'Millbrook', 'Scotsburn', 'Burrumbeet', 'Warrenheip', 'Cardigan', 'Windermere', 'Dereel', 'Wallace', 'Bullarook', 'Waubra', 'Lal Lal', 'Corindhap', 'Miners Rest', 'Cambrian Hill', 'Yendon', 'Napoleons', 'Durham Lead', 'Enfield', 'Dean', 'Magpie', 'Lamplough', 'Dunnstown', 'Learmonth', 'Mollongghip', 'Mount Egerton', 'Bolwarrah']"
+3758,33.78141142536696,"['Heathcote Junction', 'Wandong']"
+3465,33.48455314967762,"['Majorca', 'Homebush', 'Craigie', 'Natte Yallock', 'Golden Point', 'Alma', 'Maryborough', 'Adelaide Lead', 'Havelock']"
+3515,33.11605230653686,"['Shelbourne', 'Marong']"
+3824,33.04665700411501,"['Narracan', 'Thorpdale South', 'Trafalgar', 'Trafalgar East', 'Trafalgar South']"
+3871,33.00332715954059,"['Mirboo North', 'Allambee South', 'Allambee Reserve']"
+3815,32.94000244568425,"['Bunyip', 'Bunyip North', 'Tonimbuk', 'Iona']"
+3620,32.8647497717756,"['Wyuna', 'Wyuna East', 'Lancaster', 'Kyabram', 'Kyabram South']"
+3231,32.641846663380754,['Aireys Inlet']
+3981,32.56075325271468,"['Bayles', 'Yannathan', 'Dalmore', 'Koo Wee Rup', 'Catani', 'Heath Hill', 'Koo Wee Rup North']"
+3840,32.32199468874145,"['Morwell', 'Hazelwood North', 'Hazelwood South', 'Hazelwood', 'Jeeralang Junction', 'Jeeralang']"
+3225,32.2937767250095,"['Queenscliff', 'Point Lonsdale']"
+3020,32.26465613660147,"['Sunshine West', 'Sunshine North', 'Sunshine', 'Albion']"
+3139,32.25390533801052,"['Seville', 'Seville East', 'Hoddles Creek', 'Yellingbo', 'Wandin North', 'Woori Yallock', 'Launching Place', 'Wandin East']"
+3500,32.01395070703914,"['Mildura', 'Mildura West']"
+3373,31.34498151313324,"['Trawalla', 'Beaufort', 'Raglan', 'Waterloo']"
+3223,31.117752041915082,"['Indented Head', 'St Leonards', 'Portarlington', 'Bellarine']"
+3377,31.073702296670604,"['Great Western', 'Cathcart', 'Ararat', 'Armstrong', 'Moyston', 'Maroona']"
+3854,31.031032712598737,"['Glengarry', 'Glengarry North', 'Glengarry West']"
+3808,30.853147044292708,['Beaconsfield Upper']
+3030,30.778344735625428,"['Point Cook', 'Cocoroc', 'Werribee', 'Werribee South', 'Derrimut']"
+3431,30.663550194362365,['Riddells Creek']
+3799,30.61049188778633,"['Millgrove', 'Wesburn', 'Warburton', 'East Warburton', 'Mcmahons Creek']"
+3971,30.599175004809574,"['Alberton', 'Alberton West', 'Port Albert', 'Tarraville', 'Won Wron', 'Yarram', 'Devon North']"
+3523,30.524136806735978,"['Heathcote', 'Heathcote South', 'Redcastle', 'Knowsley', 'Costerfield']"
+3664,30.377547577483867,['Avenel']
+3922,30.342036899327688,"['Cowes', 'Ventnor']"
+3472,30.319889059540504,"['Dunolly', 'Moliagul', 'Bromley', 'Betley', 'Goldsborough', 'Eddington']"
+3943,30.312869731755125,['Sorrento']
+3464,30.128333064668077,['Carisbrook']
+3675,29.96561797710893,"['Greta West', 'Greta', 'Greta South', 'Glenrowan West', 'Glenrowan']"
+3444,29.956196017628677,"['Lauriston', 'Kyneton', 'Kyneton South', 'Baynton', 'Baynton East', 'Tylden', 'Tylden South', 'Redesdale']"
+3629,29.854986555720224,"['Ardmona', 'Mooroopna', 'Undera', 'Mooroopna North']"
+3988,29.845186365322945,"['Poowong', 'Poowong North', 'Poowong East']"
+3977,29.51282817451434,"['Cranbourne', 'Skye', 'Cannons Creek', 'Sandhurst', 'Cranbourne North', 'Devon Meadows', 'Cranbourne East', 'Cranbourne South', 'Cranbourne West', 'Five Ways']"
+3925,29.340688754570817,"['Cape Woolamai', 'Newhaven', 'San Remo', 'Churchill Island']"
+3735,29.236289462554318,"['Whorouly', 'Whorouly East', 'Whorouly South']"
+3996,29.1998603514846,['Inverloch']
+3984,29.169003843151515,"['Caldermeade', 'Grantville', 'Lang Lang East', 'Lang Lang', 'Corinella']"
+3458,29.015525196417805,"['Trentham', 'Trentham East', 'Little Hampton', 'Blackwood', 'North Blackwood']"
+3023,28.568878318936555,"['Caroline Springs', 'Cairnlea', 'Deer Park', 'Deer Park North', 'Burnside Heights', 'Ravenhall', 'Burnside']"
+3501,28.302781088429253,"['Koorlong', 'Mildura South', 'Mildura Centre Plaza', 'Nichols Point']"
+3987,28.252391444963035,['Nyora']
+3747,27.933476771713526,"['Stanley', 'Beechworth', 'Wooragee']"
+3305,27.819020267164166,"['Mount Richmond', 'Cape Bridgewater', 'Portland', 'Portland North', 'Portland West']"
+3991,27.709679395807157,['Bass']
+3660,27.28055684788252,"['Seymour', 'Seymour South']"
+3673,26.916999018191838,"['Benalla', 'Tatong', 'Swanpool', 'Lima East', 'Lima', 'Lima South']"
+3941,26.734899355087244,"['St Andrews Beach', 'Rye', 'Tootgarook']"
+3919,26.734699410227154,['Crib Point']
+3816,26.677287243921455,"['Labertouche', 'Longwarry', 'Longwarry North']"
+3242,26.39858998774457,['Birregurra']
+3882,26.267062659993467,['Nicholson']
+3463,26.236501375818396,"['Shelbourne', 'Woodstock West', 'Laanecoorie', 'Baringhup', 'Baringhup West', 'Maldon']"
+3730,26.178088530192756,"['Burramine', 'Burramine South', 'Yarrawonga', 'Bundalong', 'Bundalong South']"
+3720,26.00904810224217,['Bonnie Doon']
+3923,25.85297437349713,['Rhyll']
+3825,25.804237805490374,"['Aberfeldy', 'Rawson', 'Moe', 'Yallourn', 'Yallourn North', 'Newborough', 'Moe South', 'Willow Grove', 'Erica', 'Jericho', 'Moondarra', 'Hill End', 'Thomson', 'Walhalla', 'Walhalla East', 'Coalville', 'Hernes Oak']"
+3812,25.33957055403962,"['Nar Nar Goon', 'Nar Nar Goon North', 'Maryknoll']"
+3835,25.123183139805295,['Thorpdale']
+3927,25.092406614497044,['Somers']
+3956,24.98592283206432,"['Walkerville', 'Walkerville North', 'Walkerville South', 'Tarwin Lower', 'Venus Bay', 'Dumbalk', 'Dumbalk North', 'Meeniyan']"
+3579,24.951019960836085,"['Mystic Park', 'Macorna', 'Kerang', 'Kerang East', 'Tragowel', 'Koroop', 'Murrabit', 'Murrabit West']"
+3732,24.589466672492627,['Moyhu']
+3878,24.26171328955736,['Eagle Point']
+3250,23.801389634738612,"['Elliminyt', 'Colac', 'Colac East', 'Colac West']"
+3064,23.678172196136625,"['Roxburgh Park', 'Mickleham', 'Craigieburn', 'Kalkallo']"
+3844,23.530636751818726,"['Traralgon', 'Carrajung', 'Carrajung Lower', 'Carrajung South', 'Traralgon East', 'Tyers', 'Traralgon South', 'Callignee', 'Callignee North', 'Callignee South']"
+3942,23.515271006702854,['Blairgowrie']
+3214,23.397080872921947,"['Corio', 'Norlane', 'North Shore']"
+3505,23.1113942977094,"['Merbein South', 'Merbein', 'Merbein West']"
+3666,22.855025433903993,"['Balmattum', 'Strathbogie', 'Euroa', 'Miepoll', 'Longwood East']"
+3616,22.72253324516714,"['Girgarre East', 'Tatura', 'Tatura East', 'Mooroopna North West']"
+3272,22.62875821602429,['Woorndoo']
+3875,22.471990402540964,"['Sarsfield', 'Bullumwaal', 'Wy Yung', 'Newlands Arm', 'Lucknow', 'Hillside', 'Bairnsdale', 'East Bairnsdale', 'Eastwood']"
+3498,22.123690774217902,['Irymple']
+3254,21.84392231828322,['Cororooke']
+3685,21.67298616719456,"['Prentice North', 'Boorhaman North', 'Rutherglen', 'Great Southern']"
+3235,21.65170327397325,['Deans Marsh']
+3612,21.643688258670633,"['Whroo', 'Rushworth']"
+3717,21.642844362013527,['Murrindindi']
+3608,21.149319985989,"['Graytown', 'Nagambie']"
+3230,20.782225564674086,['Anglesea']
+3860,20.63758777556171,"['Coongulla', 'Briagolong', 'Maffra', 'Boisdale']"
+3453,20.577184218591015,"['Harcourt', 'Harcourt North', 'Ravenswood', 'Ravenswood South']"
+3678,20.50602359331628,"['Tarrawingee', 'North Wangaratta', 'Wangaratta South', 'East Wangaratta', 'Wangaratta Forward', 'Boorhaman', 'Boorhaman East', 'Cheshunt', 'Cheshunt South', 'Oxley', 'Oxley Flats', 'Milawa', 'Everton', 'Everton Upper']"
+3380,20.115825371779216,"['Stawell', 'Stawell West']"
+3294,19.63908306213852,['Dunkeld']
+3699,19.385758306925567,"['Falls Creek', 'Bogong', 'Mount Beauty']"
+3304,19.06892159533455,"['Dartmoor', 'Heywood', 'Drumborg', 'Bessiebelle']"
+3249,18.200324075101424,"['Coragulac', 'Barramunga', 'Warrion', 'Swan Marsh', 'Pomborneit East', 'Larpent', 'Barongarook', 'Barongarook West', 'Nalangil', 'Alvie', 'Irrewillipe', 'Irrewillipe East', 'Pirron Yallock', 'Ondit', 'Dreeite', 'Dreeite South']"
+3175,18.02081344088397,"['Dandenong', 'Dandenong North', 'Dandenong South', 'Bangholme', 'Dandenong East']"
+3644,17.923393049977623,"['Yarroweyah', 'Cobram']"
+3700,17.523728750113662,"['Tallangatta', 'Tallangatta East']"
+3880,17.13694576744993,"['Paynesville', 'Raymond Island']"
+3097,16.6930225246801,['Kangaroo Ground']
+3723,16.36673613662198,"['Jamieson', 'Matlock', 'Maindample', 'Gaffneys Creek', 'Woods Point', 'Tolmie', 'Mount Buller']"
+3331,15.627222500559808,"['Bannockburn', 'Steiglitz', 'Maude', 'Gheringhap']"
+3737,15.230440413866482,"['Merriang', 'Merriang South', 'Myrtleford', 'Buffalo River']"
+3904,15.197279661483233,['Metung']
+3640,15.15810292924313,['Katunga']
+3496,15.016618358291417,"['Meringur', 'Werrimull', 'Red Cliffs', 'Sunnycliffs', 'Cardross']"
+3851,13.810557795675932,"['Seaspray', 'Loch Sport', 'The Heart', 'Longford', 'Golden Beach', 'Flamingo Beach', 'Bundalaguah']"
+3733,12.292998664263928,['Whitfield']
+3480,11.829256959103441,"['Corack', 'Corack East', 'Litchfield', 'Swanwater West', 'Laen North', 'Laen', 'Laen East', 'Donald']"
+3233,11.203605149097433,['Apollo Bay']
+3909,11.060919714107381,"['Nungurner', 'Lake Tyers Beach', 'Lakes Entrance', 'Kalimna', 'Kalimna West']"
+3669,10.987168385061864,"['Creek Junction', 'Upotipotpon', 'Tamleugh', 'Tamleugh North']"
+3564,10.718295556940037,"['Echuca Village', 'Patho', 'Echuca', 'Echuca West', 'Echuca South']"
+3638,10.39386842867942,['Kotupna']
+3641,10.255454155614308,"['Ulupna', 'Strathmerton']"
+3847,9.806118700372261,['Rosedale']
+3029,9.798308248415138,"['Tarneit', 'Hoppers Crossing', 'Truganina']"
+3477,9.729744833162906,"['Swanwater', 'Avon Plains', 'Carapooee', 'Carapooee West', 'Gowar East', 'Redbank', 'St Arnaud East', 'St Arnaud North', 'Marnoo East', 'Stuart Mill']"
+3289,8.519394627550415,['Penshurst']
+3741,6.963720086290752,"['Bright', 'Mount Hotham', 'Hotham Heights', 'Harrietville', 'Freeburgh']"
+3490,6.594409218892388,"['Boinka', 'Torrita', 'Ouyen']"
+3885,2.868839966783377,"['Buchan', 'Buchan South', 'Bruthen']"
+3318,2.10977945259995,['Edenhope']
+3888,0.0,"['Marlo', 'Bendoc', 'Orbost']"

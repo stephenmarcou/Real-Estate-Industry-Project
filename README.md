@@ -29,20 +29,25 @@ go to the `crime_data_scripts` directory and run the files in the following orde
 11. `type_of_towns_scripts/type_of_town.py`: downloads all data to do with towns and their promixity in Victoria
 12. `type_of_towns_scripts/preprocess_all_towns.py`: preprocesses the town, postcode and lat and long data such that one file is created, `data/raw/all_town_data.csv`
 13. Manually download all supermarket locations from https://www.yellowpages.com.au/vic/supermarkets-grocery-stores-20613-category-a1. Enter data into `data/landing/supermarket_raw_data.csv`
+14. Manually download all PTV data from https://datashare.maps.vic.gov.au/search?q=uuid%3D1792cbe0-25e5-52a0-8bc2-cc2294051634
+Enter data into 'data/landing/ptv_data'
+15. Manually download postcode polygon data from https://datashare.maps.vic.gov.au/search?q=uuid%3D46bba391-0d67-5bd7-b0bb-bb37945c5c4a
+Enter data into 'data/landing/postcode_polygon_data'
 
-14. `school_data_preprocessing_raw.py`: preprocesses school and university data and saves into `data/raw/school_data`
-15. `school_data_preprocessing_curated.py`: curates the school and university data and saves into `data/curated/school_data`
-16. `hospital_data_download.py`: downloads the hospital data and saves into `data/landing/hospital_data`
-17. `hospital_data_raw_preprocessing.py`: preprocess the hospital data and saves into `data/raw/hospital_data`
-18. `hospital_data_raw_preprocessing.py`: curates the hospital data (including retrieving coordinates for the locations) saves into `data/curated/hospital_data`
+17. `school_data_preprocessing_raw.py`: preprocesses school and university data and saves into `data/raw/school_data`
+18. `school_data_preprocessing_curated.py`: curates the school and university data and saves into `data/curated/school_data`
+19. `hospital_data_download.py`: downloads the hospital data and saves into `data/landing/hospital_data`
+20. `hospital_data_raw_preprocessing.py`: preprocess the hospital data and saves into `data/raw/hospital_data`
+21. `hospital_data_raw_preprocessing.py`: curates the hospital data (including retrieving coordinates for the locations) saves into `data/curated/hospital_data`
+22. 'ptv_data_preprocess_raw.py': preprocesses PTV data and saves into 'data/raw/ptv'
 
-19. `type_of_towns_scripts/create_town_dataframe.py`: curates all the town data and saves it in a clean dataframe in `data/curated`
-20. `supermarket_scripts/supermarket_curate.py`: curates the supermarket data into a dataframe saved into `data/curated`
+23. `type_of_towns_scripts/create_town_dataframe.py`: curates all the town data and saves it in a clean dataframe in `data/curated`
+24. `supermarket_scripts/supermarket_curate.py`: curates the supermarket data into a dataframe saved into `data/curated`
 
 
-21. `download_sa2_info.py`: downloads all the data for each SA2 district and saved into `data/landing/suburb_info`
-22. `postcode_shapefile_download.py`: downloads the postcode shapefiles and saves into the `data/landing` directory.
-23. `preprocess_sa2_info.py`: Gathers all the important information from each SA2 district from each census year since 2011,
+25. `download_sa2_info.py`: downloads all the data for each SA2 district and saved into `data/landing/suburb_info`
+26. `postcode_shapefile_download.py`: downloads the postcode shapefiles and saves into the `data/landing` directory.
+27. `preprocess_sa2_info.py`: Gathers all the important information from each SA2 district from each census year since 2011,
 and saves the each year's info into the `data/curated` directory
 
 #### Put in all of your scripts you run to get the data
@@ -53,7 +58,8 @@ and saves the each year's info into the `data/curated` directory
 1. `distance_school_houses.ipynb`: this notebook calculates the distance from all properties to closest primary and secondary school, and also to closest university campus. It merges these distance metrics with the property data and is saved into `data/curated/rental_data_distance_uni_school_sf.csv`
 2. `distance_hospital_houses.ipynb`: this notebook calculates the distance from all properties to closest hospital. It merges this distance metric with the output csv from last step and is saved into `data/curated/rental_data_distance_sf.csv`
 3. `merge_supermarket_and_town_data.py`: the python script merges the data from the supermarket dataframe and the town dataframe with the rental data and saves it into `data/curated/rental_data_town_join.csv`
-4. `merge_rental_data.ipynb`: this notebook merges all features (both internal and external) to a single dataframe and saves into `data/curated/merged_data.csv` 
+4. `merge_rental_data.ipynb`: this notebook merges all features (both internal and external) to a single dataframe and saves into `data/curated/merged_data.csv`
+5. 'distance_ptv.ipynb': this notebook calculates the distance from all properties to the closest train station. It merges the distance metric with the property data and is saved into 'data/curated/rental_data_train_station.csv'
    
 
 number. `join_crime_realestate.ipynb`: this notebook will join the crime data with the property data, saving the data to `data/curated` directory.

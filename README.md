@@ -45,7 +45,8 @@ Enter data into 'data/landing/postcode_polygon_data'
 24. `supermarket_scripts/supermarket_curate.py`: curates the supermarket data into a dataframe saved into `data/curated`
 
 
-25. `download_sa2_info.py`: downloads all the data for each SA2 district and saved into `data/landing/suburb_info`
+25. `download_sa2_info.py`: downloads all the data for each SA2 district and saved into `data/landing/suburb_info`, this script relies on `SA2_shapefile_download.py` being ran first
+
 26. `postcode_shapefile_download.py`: downloads the postcode shapefiles and saves into the `data/landing` directory.
 27. `preprocess_sa2_info.py`: Gathers all the important information from each SA2 district from each census year since 2011,
 and saves the each year's info into the `data/curated` directory
@@ -55,11 +56,13 @@ and saves the each year's info into the `data/curated` directory
 
 #### run the scripts or notebooks that merge all the data into a single dataframe.
 
-1. `distance_school_houses.ipynb`: this notebook calculates the distance from all properties to closest primary and secondary school, and also to closest university campus. It merges these distance metrics with the property data and is saved into `data/curated/rental_data_distance_uni_school_sf.csv`
-2. `distance_hospital_houses.ipynb`: this notebook calculates the distance from all properties to closest hospital. It merges this distance metric with the output csv from last step and is saved into `data/curated/rental_data_distance_sf.csv`
-3. `merge_supermarket_and_town_data.py`: the python script merges the data from the supermarket dataframe and the town dataframe with the rental data and saves it into `data/curated/rental_data_town_join.csv`
-4. `merge_rental_data.ipynb`: this notebook merges all features (both internal and external) to a single dataframe and saves into `data/curated/merged_data.csv`
-5. 'distance_ptv.ipynb': this notebook calculates the distance from all properties to the closest train station. It merges the distance metric with the property data and is saved into 'data/curated/rental_data_train_station.csv'
+1. `trial_projection.ipynb`: this notebook uses the average growth rate between census data to predict the census data for 2026 for each SA2 district, and outputs it to `data/curated` folder as `suburb_info_2026.csv`
+2. `rental_sa2.ipynb`: this notebook adds the SA2 district and shapefile geometry attribute to each property in the form of `data/curated/rental_data_sf.csv` as well as changes the SA2 data to postcode based data. 
+3. `distance_school_houses.ipynb`: this notebook calculates the distance from all properties to closest primary and secondary school, and also to closest university campus. It merges these distance metrics with the property data and is saved into `data/curated/rental_data_distance_uni_school_sf.csv`
+4. `distance_hospital_houses.ipynb`: this notebook calculates the distance from all properties to closest hospital. It merges this distance metric with the output csv from last step and is saved into `data/curated/rental_data_distance_sf.csv`
+5. `merge_supermarket_and_town_data.py`: the python script merges the data from the supermarket dataframe and the town dataframe with the rental data and saves it into `data/curated/rental_data_town_join.csv`
+6. `merge_rental_data.ipynb`: this notebook merges all features (both internal and external) to a single dataframe and saves into `data/curated/merged_data.csv`
+7. 'distance_ptv.ipynb': this notebook calculates the distance from all properties to the closest train station. It merges the distance metric with the property data and is saved into 'data/curated/rental_data_train_station.csv'
    
 
 number. `join_crime_realestate.ipynb`: this notebook will join the crime data with the property data, saving the data to `data/curated` directory.
@@ -73,15 +76,10 @@ Visit the `notebooks` directory, run the following notebooks to perform the eval
 4. `q1_modelling.ipynb`: this notebook runs and anlayses the XGBoost model that predicts rent prices. It identifies the most important features to predict rent prices. It saves the csv file used for modelling into `data/curated/data_XGBoost_before_onehotencode.csv`. The most important features are saved into `data/curated/top_features.csv` 
 5. `income_school_geospatial.ipynb`: this notebook creates folium map of the average household income of SA2 areas combined with markers of the top 150 VCE schools. The map is saved into the `plots/income_school_geo.html`
 6. `property_school_geo.ipynb`: this notebook creates two folium maps, one for the log average rental price per bed for houses in SA2 areas combined with markers of the top 150 VCE schools and the other one for the log average rental price per bed for apartment units in SA2 areas combined with markers of the top 150 VCE schools. The resepective maps are saved into the `plots/school_house_rentprice_map.html` and `plots/school_unit_rentprice_map.html`
-
-
-For the postcode data 
-1. `trial_projection_q2.ipynb`: this notebook uses the average growth rate between census data to predict the census data for 2026 for each SA2 district, and outputs it to `data/curated` folder as `suburb_info_2026.csv`
-2. `rental_sa2.ipynb`: this notebook adds the SA2 district and shapefile geometry attribute to each property as well as changes the SA2 data to postcode based data
-3. `trial_growth_rate.ipynb`: this notebook is intended for use to show the general linear trend in growth rates between 2011 and 2021 in census data
-4. `open_space.ipynb`: this notebook finds the distance to the closest park for each rental property and outputs the result to `data/curated` folder as `rental_data_closest_park.csv`
-5. `q2_modelling.ipynb`: this notebook used the XGBoost model created in `q1_modelling.ipynb` to predict the rental prices in 2026 and calculated the growth rate between the years.
-6. `predictions_geospatial.ipynb`: this notebook creates the map of the postcodes' growth rates that was calculated in `q2_modelling.ipynb`.
+7. `trial_growth_rate.ipynb`: this notebook is intended for use to show the general linear trend in growth rates between 2011 and 2021 in census data
+8. `open_space.ipynb`: this notebook finds the distance to the closest park for each rental property and outputs the result to `data/curated` folder as `rental_data_closest_park.csv`
+9. `q2_modelling.ipynb`: this notebook used the XGBoost model created in `q1_modelling.ipynb` to predict the rental prices in 2026 and calculated the growth rate between the years.
+10. `predictions_geospatial.ipynb`: this notebook creates the map of the postcodes' growth rates that was calculated in `q2_modelling.ipynb`.
 
 With all the predictions and models ran, navigate to `notebooks/summary_notebook.ipynb`
 It contains a summary and evaluates the models created to address the research goal.
